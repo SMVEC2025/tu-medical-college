@@ -60,7 +60,7 @@ const Navbar = () => {
         { title: 'Anatomy', link: '/department/anatomy' },
         { title: 'BioChemistry', link: '/department/bio-chemistry' },
         { title: 'Pathology', link: '/department/pathology' },
-        { title: 'pharmacology', link: '/department/pharmacology' },
+        { title: 'Pharmacology', link: '/department/pharmacology' },
         { title: 'Physiology', link: '/department/physiology' },
       ],
     },
