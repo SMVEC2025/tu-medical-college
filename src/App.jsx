@@ -53,6 +53,7 @@ import Otorhinolaryngology from "./pages/department/Otorhinolaryngology.jsx";
 import Pediatrics from "./pages/department/Pediatrics.jsx";
 import Psychiatry from "./pages/department/Psychiatry.jsx";
 import Radiology from "./pages/department/Radiology.jsx";
+import DeanDetails from "./components/dean/DeanDetails.jsx";
 
 function App() {
   return (
@@ -127,6 +128,9 @@ function App() {
         <Route exact path='/department/pediatrics' element={<Pediatrics />} />
         <Route exact path='/department/psychiatry' element={<Psychiatry/>} />
         <Route exact path='/department/radiology' element={<Radiology />} />
+
+
+        <Route exact path='/dean' element={<DeanDetails/>} />
 
       </Routes>
     </BrowserRouter>
