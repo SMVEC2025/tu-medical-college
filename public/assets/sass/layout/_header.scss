@@ -1,0 +1,126 @@
+/* Top Header */
+.top-header {
+    background: #f15a29;
+    padding: 6px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-links a {
+    margin-left: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+} 
+
+/* Main Navbar */
+.main-navbar {
+    background: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.logo-img {
+    margin-right: 12px;
+    height: 100%;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: #f15a29;
+    line-height: 1.2;
+}
+
+/* Basic Reset */
+.nav-item,
+.dropdown-item {
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-item >.nav-link{
+    font-size: 17px;
+    &:hover{
+           color: #f15a29;
+ 
+    }
+}
+.nav-link{
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+}
+/* Main Dropdown */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    z-index: 1000;
+    min-width: 220px;
+    font-size: 15px;
+}
+
+/* Sub-Submenu aligned to right */
+.dropdown.right {
+    top: 10px;
+    left: calc(100%);
+    min-width: 220px;
+}
+
+
+
+.dropdown{
+    .nav-link{
+      padding: 10px 15px;
+      &:hover{
+        background-color: #f15a29;
+        color: white;
+      }
+    }
+}
+.arrow {
+    font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .main-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .dropdown,
+    .dropdown.right {
+        position: relative;
+        box-shadow: none;
+    }
+}
