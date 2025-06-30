@@ -14,7 +14,7 @@ const AboutThree = () => {
                   <div className='col-sm-8'>
                     <img
                       src='https://www.eduska.com/assets/user_photo/45bdf69342120e8dbcf39ecf779d1f99.jpg'
-                      style={{width:"464px",height:"600px",objectFit:'cover'}}
+                      style={{ width: "464px", height: "600px", objectFit: 'cover' }}
                       alt=''
                       className='about-three-thumbs__one rounded-16 w-100'
                       data-tilt=''
@@ -39,12 +39,12 @@ const AboutThree = () => {
                       >
                         {({ isVisible }) => (
                           <h2 className='mb-16 text-white counter'>
-                            {isVisible ? <CountUp end={26} /> : null}K
+                            {isVisible ? <CountUp end={200} /> : null}+
                           </h2>
                         )}
                       </VisibilitySensor>
                       <span className='text-white'>
-                        Students Active Our University
+                        Doctors
                       </span>
                       {/* <div className='enrolled-students style-two mt-12'>
                         <img
@@ -97,108 +97,26 @@ const AboutThree = () => {
               <div className='about-three-content'>
                 <div className='mb-40'>
                   <div className='flex-align d-inline-flex gap-8 mb-16 wow bounceInDown'>
-                    <span className='text-thak text-2xl d-flex'>
-                      <i className='ph-bold ph-book-open' />
-                    </span>
-                    <h5 className='text-thak mb-0'>About Takshashila University</h5>
+
+                    <h5 className='text-thak mb-0'>Welcome to Takshashila Medical College & Hospital
+                    </h5>
                   </div>
                   <h2 className='mb-24 wow bounceInRight'>
-                    A Legacy of Knowledge, A Future of Innovation
+                    Shaping Healthcare. Empowering Healers. Serving Humanity.
                   </h2>
                   <p className='text-neutral-500  wow bounceInUp'>
-                  Takshashila University stands as a modern revival of the ancient seat of learning, Takshashila, one of the world’s earliest universities. Rooted in the rich heritage of Indian education, the university blends timeless wisdom with cutting-edge innovation to empower the leaders of tomorrow. With a multidisciplinary approach, world-class faculty, and a global outlook, Takshashila University fosters intellectual curiosity, ethical leadership, and societal impact. From engineering and medicine to arts and law, it is a hub of transformative learning where tradition meets technology, and students are prepared not just for careerssbut for life.
+                    At Takshashila Medical College & Hospital, we are not just a center of learning—we are a transformative force in the world of healthcare. Nestled in the culturally rich and vibrant state of Tamil Nadu, our institution stands as a beacon of academic excellence, cutting-edge medical research, and compassionate clinical practice. We are dedicated to nurturing a new generation of future-ready doctors who are not only skilled in medical science but also grounded in ethics, empathy, and a deep commitment to humanity. Through our state-of-the-art infrastructure, experienced faculty, and a multidisciplinary teaching hospital, we provide an environment where innovation thrives and healing begins. Every stride we take is driven by our unwavering mission to uplift communities, enhance lives, and redefine the standards of modern medical education and healthcare delivery. At Takshashila, we don't just treat illnesses—we empower healers, inspire breakthroughs, and serve humanity with heart and purpose.
+
+
+
+
+
+
+
+
                   </p>
                 </div>
-                {/* <div className='grid-cols-2'>
-                  <div
-                    className='flex-align align-items-start gap-20 animation-item'
-                    data-aos='fade-up'
-                    data-aos-duration={600}
-                  >
-                    <span className='flex-shrink-0 w-60 h-60 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-16 box-shadow-md'>
-                      <img
-                        src='assets/images/icons/choose-us-icon1.png'
-                        className='animate__swing'
-                        alt=''
-                      />
-                    </span>
-                    <div className='flex-grow-1'>
-                      <h6 className='text-neutral-800 text-xl fw-medium mb-8'>
-                        Undergraduate
-                      </h6>
-                      <div className='flex-align gap-8 text-neutral-500'>
-                        <i className='d-flex text-lg ph-bold ph-clock' />
-                        Onsite
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='flex-align align-items-start gap-20 animation-item'
-                    data-aos='fade-up'
-                    data-aos-duration={800}
-                  >
-                    <span className='flex-shrink-0 w-60 h-60 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-16 box-shadow-md'>
-                      <img
-                        src='assets/images/icons/choose-us-icon2.png'
-                        className='animate__swing'
-                        alt=''
-                      />
-                    </span>
-                    <div className='flex-grow-1'>
-                      <h6 className='text-neutral-800 text-xl fw-medium mb-8'>
-                        Graduate
-                      </h6>
-                      <div className='flex-align gap-8 text-neutral-500'>
-                        <i className='d-flex text-lg ph-bold ph-clock' />
-                        Onsite
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='flex-align align-items-start gap-20 animation-item'
-                    data-aos='fade-up'
-                    data-aos-duration={1000}
-                  >
-                    <span className='flex-shrink-0 w-60 h-60 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-16 box-shadow-md'>
-                      <img
-                        src='assets/images/icons/choose-us-icon3.png'
-                        className='animate__swing'
-                        alt=''
-                      />
-                    </span>
-                    <div className='flex-grow-1'>
-                      <h6 className='text-neutral-800 text-xl fw-medium mb-8'>
-                        Post Graduate
-                      </h6>
-                      <div className='flex-align gap-8 text-neutral-500'>
-                        <i className='d-flex text-lg ph-bold ph-clock' />
-                        Onsite
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='flex-align align-items-start gap-20 animation-item'
-                    data-aos='fade-up'
-                    data-aos-duration={1200}
-                  >
-                    <span className='flex-shrink-0 w-60 h-60 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-16 box-shadow-md'>
-                      <img
-                        src='assets/images/icons/choose-us-icon4.png'
-                        className='animate__swing'
-                        alt=''
-                      />
-                    </span>
-                    <div className='flex-grow-1'>
-                      <h6 className='text-neutral-800 text-xl fw-medium mb-8'>
-                        Online education
-                      </h6>
-                      <div className='flex-align gap-8 text-neutral-500'>
-                        <i className='d-flex text-lg ph-bold ph-clock' />
-                        Onsite
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+               
                 <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
                   <Link
                     to='/about'

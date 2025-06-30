@@ -2,33 +2,26 @@ import Breadcrumb from "../components/Breadcrumb";
 import CertificateOne from "../components/CertificateOne";
 import ContactInner from "../components/ContactInner";
 import FooterOne from "../components/FooterOne";
-import HeaderOne from "../components/HeaderOne";
-import Animation from "../helper/Animation";
-import Preloader from "../helper/Preloader";
+import FooterThree from "../components/FooterThree";
+import FooterTwo from "../components/FooterTwo";
+import Navbar from "../components/Navbar";
+
 
 const ContactPage = () => {
   return (
     <>
-      {/* Preloader */}
-      <Preloader />
-
-      {/* Animation */}
-      <Animation />
-
-      {/* HeaderTwo */}
-      <HeaderOne />
-
+      <Navbar/>
       {/* Breadcrumb */}
-      <Breadcrumb title={"Contact"} />
+      <Breadcrumb title={"Contact Us"} />
 
       {/* ContactInner */}
       <ContactInner />
 
       {/* CertificateOne */}
-      <CertificateOne />
+      {/* <CertificateOne /> */}
 
       {/* FooterOne */}
-      <FooterOne />
+      <FooterOne/>
     </>
   );
 };

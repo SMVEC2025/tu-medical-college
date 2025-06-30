@@ -18,7 +18,7 @@ const Dermatology = () => {
     
       <Navbar/>
 
-      <Breadcrumb title={"Department of radiology"} />
+      <Breadcrumb title={"Department of Dermatology"} />
 
   
       <FeaturesTwo data={deptData}/>

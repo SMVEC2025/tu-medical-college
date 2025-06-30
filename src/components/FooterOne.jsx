@@ -3,36 +3,26 @@ import { Link } from "react-router-dom";
 const FooterOne = () => {
   return (
     <footer className='footer bg-main-25 position-relative z-1'>
-      <img
-        src='assets/images/shapes/shape2.png'
-        alt=''
-        className='shape five animation-scalation'
-      />
-      <img
-        src='assets/images/shapes/shape6.png'
-        alt=''
-        className='shape one animation-scalation'
-      />
+
       <div className='py-120 '>
         <div className='container container-two'>
-          <div className='row row-cols-xxl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
+          <div className='row row-cols-xxl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
             <div className='col' data-aos='fade-up' data-aos-duration={300}>
               <div className='footer-item'>
                 <div className='footer-item__logo'>
                   <Link to='/'>
                     {" "}
-                    <img src='assets/images/logo/logo.png' alt='' />
+                    <img src='https://takshashilauniv.ac.in/wp-content/uploads/2025/01/logo-new.png' alt='' />
                   </Link>
                 </div>
                 <p className='my-32'>
-                  EduAll exceeded all my expectations! The instructors were not
-                  only experts
+                  Takshashila University was established with the vision to recreate the glory of the ancient Takshashila, India’s oldest university of higher learning.
                 </p>
                 <ul className='social-list flex-align gap-24'>
                   <li className='social-list__item'>
                     <Link
                       href='https://www.facebook.com'
-                      className='text-main-600 text-2xl hover-text-main-two-600'
+                      className='text-main-two-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-facebook-logo' />
                     </Link>
@@ -40,7 +30,7 @@ const FooterOne = () => {
                   <li className='social-list__item'>
                     <Link
                       href='https://www.twitter.com'
-                      className='text-main-600 text-2xl hover-text-main-two-600'
+                      className='text-main-two-600 text-2xl hover-text-main-two-600'
                     >
                       {" "}
                       <i className='ph-bold ph-twitter-logo' />
@@ -49,7 +39,7 @@ const FooterOne = () => {
                   <li className='social-list__item'>
                     <Link
                       href='https://www.linkedin.com'
-                      className='text-main-600 text-2xl hover-text-main-two-600'
+                      className='text-main-two-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-instagram-logo' />
                     </Link>
@@ -57,9 +47,17 @@ const FooterOne = () => {
                   <li className='social-list__item'>
                     <Link
                       href='https://www.pinterest.com'
-                      className='text-main-600 text-2xl hover-text-main-two-600'
+                      className='text-main-two-600 text-2xl hover-text-main-two-600'
                     >
-                      <i className='ph-bold ph-pinterest-logo' />
+                      <i className='ph-bold ph-whatsapp-logo' />
+                    </Link>
+                  </li>
+                  <li className='social-list__item'>
+                    <Link
+                      href='https://www.pinterest.com'
+                      className='text-main-two-600 text-2xl hover-text-main-two-600'
+                    >
+                      <i className='ph-bold ph-youtube-logo' />
                     </Link>
                   </li>
                 </ul>
@@ -67,11 +65,11 @@ const FooterOne = () => {
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={400}>
               <div className='footer-item'>
-                <h4 className='footer-item__title mb-32'>Navigation</h4>
+                <h4 className='footer-item__title mb-32'>Quick links</h4>
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      to='/about'
+                      to='/about-us'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       About us
@@ -79,49 +77,43 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      to='/courses'
+                      to='/contact-us'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Courses
+                      Contact us
                     </Link>
                   </li>
+
                   <li className='mb-16'>
                     <Link
-                      to='/instructor'
+                      to='/dean'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Instructor
+                      Dean
                     </Link>
                   </li>
-                  <li className='mb-16'>
-                    <Link
-                      to='/faq'
-                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
-                    >
-                      FAQs
-                    </Link>
-                  </li>
-                  <li className='mb-0'>
-                    <Link
-                      to='/blog'
-                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
-                    >
-                      Blogs
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={600}>
               <div className='footer-item'>
-                <h4 className='footer-item__title mb-32'>Category</h4>
+                <h4 className='footer-item__title mb-32'>Committee cell</h4>
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      to='/courses'
+                      to='/committee/general-harassment'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      UI/UX Design
+                      Gender Harassment
+                    </Link>
+                  </li>
+                  <li className='mb-16'>
+                    <Link
+                      to='/committee/anti-ragging'
+                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
+                    >
+                      Anti Ragging
                     </Link>
                   </li>
                   <li className='mb-16'>
@@ -129,31 +121,30 @@ const FooterOne = () => {
                       to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Web Development
-                    </Link>
+                      Curriculum Committee                    </Link>
                   </li>
                   <li className='mb-16'>
                     <Link
                       to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Python Development
+                      Curriculum Committee
                     </Link>
                   </li>
                   <li className='mb-16'>
                     <Link
-                      to='/courses'
+                      to='/committee/hospital-infection-control'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Digital Marketing
+                      Hospital Infection Control
                     </Link>
                   </li>
                   <li className='mb-16'>
                     <Link
-                      to='/courses'
+                      to='/committee/Pharmacovigilance'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Graphic Design
+                      Pharmacovigilance
                     </Link>
                   </li>
                 </ul>
@@ -163,7 +154,7 @@ const FooterOne = () => {
               <div className='footer-item'>
                 <h4 className='footer-item__title mb-32'>Contact Us</h4>
                 <div className='flex-align gap-20 mb-24'>
-                  <span className='icon d-flex text-32 text-main-600'>
+                  <span className='icon d-flex text-32 text-thak'>
                     <i className='ph ph-phone' />
                   </span>
                   <div className=''>
@@ -171,18 +162,16 @@ const FooterOne = () => {
                       to='/tel:(207)555-0119'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
-                      (207) 555-0119
-                    </Link>
+                      +91 94437 69196                    </Link>
                     <Link
                       to='/tel:(704)555-0127'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
-                      (704) 555-0127
-                    </Link>
+                      +91 94437 69196                    </Link>
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>
-                  <span className='icon d-flex text-32 text-main-600'>
+                  <span className='icon d-flex text-32 text-thak'>
                     <i className='ph ph-envelope-open' />
                   </span>
                   <div className=''>
@@ -201,42 +190,21 @@ const FooterOne = () => {
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>
-                  <span className='icon d-flex text-32 text-main-600'>
+                  <span className='icon d-flex text-32 text-thak'>
                     <i className='ph ph-map-trifold' />
                   </span>
                   <div className=''>
                     <span className='text-neutral-500 d-block mb-4'>
-                      5488 srker Rd .
+                      Ongur, Tindivanam Taluk, Villupuram District,
                     </span>
                     <span className='text-neutral-500 d-block mb-0'>
-                      8745 doer Dr.
+                      Tamil Nadu – 604 305
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className='footer-item'>
-                <h4 className='footer-item__title mb-32'>Subscribe Here</h4>
-                <p className='text-neutral-500'>
-                  Enter your email address to register to our newsletter
-                  subscription
-                </p>
-                <form action='#' className='mt-24 position-relative'>
-                  <input
-                    type='email'
-                    className='form-control bg-white shadow-none border border-neutral-30 rounded-pill h-52 ps-24 pe-48 focus-border-main-600'
-                    placeholder='Email...'
-                  />
-                  <button
-                    type='submit'
-                    className='w-36 h-36 flex-center rounded-circle bg-main-600 text-white hover-bg-main-800 position-absolute top-50 translate-middle-y inset-inline-end-0 me-8'
-                  >
-                    <i className='ph ph-paper-plane-tilt' />
-                  </button>
-                </form>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -248,11 +216,11 @@ const FooterOne = () => {
               <p className='bottom-footer__text'>
                 {" "}
                 Copyright © 2025 <span className='fw-semibold'>
-                  EduAll{" "}
+                  Takshashila University{" "}
                 </span>{" "}
                 All Rights Reserved.
               </p>
-              <div className='footer-links'>
+              {/* <div className='footer-links'>
                 <Link
                   to='#'
                   className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
@@ -265,7 +233,7 @@ const FooterOne = () => {
                 >
                   Terms &amp; Conditions
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,0 +1,60 @@
+/* PharmacovigilanceCommittee.css */
+
+:root {
+  --primary-color: #f15b29;
+  --accent-color: #e0f2f1;
+  --text-color: #333;
+  --heading-color: #f15b29;
+}
+
+.pharma-container {
+  padding: 2rem;
+  color: var(--text-color);
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.pharma-header h1 {
+  color: var(--heading-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.pharma-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.pharma-table-section {
+  overflow-x: auto;
+}
+
+.pharma-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pharma-table th,
+.pharma-table td {
+  border: 1px solid #b2dfdb;
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.pharma-table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+.pharma-table tr:nth-child(even) {
+  background-color: #f1f8f6;
+}

@@ -12,8 +12,7 @@ const HeroSection = () => {
       <div className="hero-overlay">
         <h1>Welcome To Takshashila Medical College</h1>
         <p>
-          Start your journey towards excellence in healthcare, medical education,
-          and global opportunities – all in one institution.
+         At Takshashila Medical College Hospital, we are more than a center of learning—we are a movement towards transforming healthcare.
         </p>
         <a href="#admission" className="admission-btn">View More</a>
       </div>

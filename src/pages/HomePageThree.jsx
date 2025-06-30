@@ -2,10 +2,12 @@ import AboutThree from "../components/AboutThree";
 import BannerThree from "../components/BannerThree";
 import BlogTwo from "../components/BlogTwo";
 import BrandTwo from "../components/BrandTwo";
+import ChooseUsOne from "../components/ChooseUsOne";
 import ChooseUsTwo from "../components/ChooseUsTwo";
 import CounterTwo from "../components/CounterTwo";
 import EventOne from "../components/EventOne";
 import FacultyOne from "../components/FacultyOne";
+import FooterOne from "../components/FooterOne";
 import FooterThree from "../components/FooterThree";
 import HeaderOne from "../components/HeaderOne";
 import HeroSection from "../components/hero/HeroSection";
@@ -26,7 +28,7 @@ const HomePageThree = () => {
       {/* HeaderOne */}
       {/* <HeaderOne /> */} 
       <Navbar/>
-
+    
       {/* Animation */}
       {/* <Animation /> */}
 
@@ -35,10 +37,11 @@ const HomePageThree = () => {
       <HeroSection/>
 
       {/* InfoTwo */}
-      <InfoTwo />
-
+      {/* <InfoTwo /> */}
+     
       {/* AboutThree */}
       <AboutThree />
+      
 
       {/* VideoOne */}
       <VideoOne />
@@ -50,7 +53,8 @@ const HomePageThree = () => {
       {/* <FacultyOne /> */}
 
       {/* ChooseUsTwo */}
-      <ChooseUsTwo />
+      {/* <ChooseUsTwo /> */}
+      <ChooseUsOne />
 
       {/* TestimonialsThree */}
       {/* <TestimonialsThree /> */}
@@ -65,7 +69,7 @@ const HomePageThree = () => {
       {/* <BrandTwo /> */}
 
       {/* FooterThree */}
-      <FooterThree />
+      <FooterOne />
     </>
   );
 };

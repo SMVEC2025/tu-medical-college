@@ -2,17 +2,8 @@ import { Link } from "react-router-dom";
 
 const FooterThree = () => {
   return (
-    <footer style={{ backgroundColor:'white'}} className='footer bg-[#f15b29] position-relative z-1'>
-      <img
-        src='assets/images/shapes/shape2.png'
-        alt=''
-        className='shape five animation-scalation'
-      />
-      <img
-        src='assets/images/shapes/shape6.png'
-        alt=''
-        className='shape one animation-scalation'
-      />
+    <footer style={{ backgroundColor: 'white' }} className='footer bg-[#f15b29] position-relative z-1'>
+
       <div className='py-120 '>
         <div className='container container-two'>
           <div className='row gy-5'>
@@ -42,7 +33,7 @@ const FooterThree = () => {
                       Contact us
                     </Link>
                   </li>
-                 
+
                 </ul>
               </div>
             </div>
@@ -69,7 +60,7 @@ const FooterThree = () => {
                       to='/courses'
                       className='text-black hover-text-main-600 hover-text-decoration-underline'
                     >
-                      
+
                     </Link>
                   </li>
                   <li className='mb-16'>
@@ -77,10 +68,10 @@ const FooterThree = () => {
                       to='/courses'
                       className='text-black hover-text-main-600 hover-text-decoration-underline'
                     >
-                     Community cell
+                      Community cell
                     </Link>
                   </li>
-                  
+
                 </ul>
               </div>
             </div>
@@ -127,9 +118,9 @@ const FooterThree = () => {
                       to='/mailto:eduAll@gmail.com'
                       className='text-black d-block hover-text-main-600 mb-0'
                     >
-                   
 
-admission@takshashilauniv.ac.in
+
+                      admission@takshashilauniv.ac.in
                     </Link>
                   </div>
                 </div>
@@ -139,10 +130,10 @@ admission@takshashilauniv.ac.in
                   </span>
                   <div className=''>
                     <span className='text-black d-block mb-4'>
-                      Ongur, Tindivanam Taluk, Villupuram District, 
+                      Ongur, Tindivanam Taluk, Villupuram District,
                     </span>
                     <span className='text-black d-block mb-0'>
-Tamil Nadu – 604 305                    </span>
+                      Tamil Nadu – 604 305                    </span>
                   </div>
                 </div>
               </div>
@@ -186,7 +177,7 @@ Tamil Nadu – 604 305                    </span>
               <div className='footer-item__logo mb-0' data-aos='zoom-in-right'>
                 <Link to='/'>
                   {" "}
-                  <img src='assets/images/logo/logo-white.png' alt='' />
+                  <img src='/logo.png' alt='' />
                 </Link>
               </div>
               <p

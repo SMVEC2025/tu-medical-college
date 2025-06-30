@@ -20,7 +20,7 @@ const InfoTwo = () => {
                 <div>
                   <h4 className='mb-16'>Scholarship Facility</h4>
                   <p className='text-neutral-700'>
-                    These facilities provide students with an inspiring{" "}
+                    Pharmacy and Blood Bank Services
                   </p>
                 </div>
               </div>
@@ -39,9 +39,9 @@ const InfoTwo = () => {
                   />
                 </span>
                 <div>
-                  <h4 className='mb-16'>Esteemed Faculty</h4>
+                  <h4 className='mb-16'>24/7</h4>
                   <p className='text-neutral-700'>
-                    Our university boasts a team of renowned faculty members
+                    Emergency & Trauma Care
                   </p>
                 </div>
               </div>

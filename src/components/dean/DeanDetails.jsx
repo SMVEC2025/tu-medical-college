@@ -31,7 +31,7 @@ Tamil Nadu - 604305, India`,
   return (
    <>
    <Navbar/>
-   <Breadcrumb />
+   <Breadcrumb title={"Dean"} />
     <div className="dean-container">
       {deans.map((dean, index) => (
         <div className="dean-card" key={index}>

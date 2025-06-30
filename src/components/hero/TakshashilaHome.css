@@ -1,0 +1,121 @@
+/* TakshashilaHome.css */
+
+:root {
+  --primary-color: #2a6f97;
+  --secondary-color: #f7f7f7;
+  --accent-color: #1985a1;
+  --text-color: #333;
+  --heading-color: #1b365d;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.tak-main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.tak-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tak-header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.tak-header p {
+  font-size: 1.2rem;
+}
+
+.tak-intro {
+  background: white;
+  margin: 30px 0;
+  padding: 25px;
+  border-left: 6px solid var(--accent-color);
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.tak-vision-mission {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+  .tak-vision-mission {
+    flex-direction: row;
+  }
+}
+
+.tak-box {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.tak-box h2 {
+  color: var(--heading-color);
+}
+
+.tak-services {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.tak-services h2 {
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+.tak-services ul {
+  padding-left: 20px;
+}
+
+.tak-why {
+  margin-bottom: 40px;
+}
+
+.tak-why h2 {
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.tak-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
+}
+
+.tak-card {
+  background-color: #e6f2f5;
+  border-left: 5px solid var(--accent-color);
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #03444c;
+}
+
+.tak-footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  font-size: 0.9rem;
+  color: #777;
+}

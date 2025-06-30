@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const FeaturesTwo = ({data}) => {
+const FeaturesTwo = ({ data }) => {
   return (
-    <section className='features-two half-bg py-120 position-relative overflow-hidden'>
+    <section className='features-two  py-120 position-relative overflow-hidden'>
       <img
         src='assets/images/shapes/shape2.png'
         alt=''
@@ -19,7 +19,7 @@ const FeaturesTwo = ({data}) => {
             <h2 className='mb-24 wow bounceInLeft'>
               {data.title}
             </h2>
-            <p style={{width:"70%"}}>{data.para} </p>
+            <p style={{ width: "70%", whiteSpace: "pre-line" }}>{data.para} </p>
           </div>
           {/* <div className='section-heading__content wow bounceInRight'>
             <p className='text-line-2'>
@@ -41,19 +41,16 @@ const FeaturesTwo = ({data}) => {
             data-aos='fade-up'
             data-aos-duration={200}
           >
-            <div className='text-center features-item item-hover animation-item bg-white border border-neutral-30 rounded-16 transition-1 hover-bg-main-600 hover-border-main-600'>
+            <div className='text-center features-item animation-item bg-white border border-neutral-30 rounded-16 transition-1 '>
               <span className='mb-32 w-110 h-110 flex-center d-inline-flex bg-main-25 rounded-circle'>
-                <img
-                  src='/assets/images/icons/features-two-icon1.png'
-                  className='animate__bounce'
-                  alt=''
-                />
+                <i className="ph ph-shield-plus text-thak " style={{fontSize:"50px"}} />
+
               </span>
               <h4 className='mb-16 transition-1 item-hover__text'>
                 MISSION
               </h4>
-              <p className='transition-1 item-hover__text text-line-2'>
-               {data.mission}
+              <p className='transition-1 item-hover__text '>
+                {data.mission}
               </p>
               <span className='item-hover__bg w-48 h-1 bg-neutral-500 mt-32' />
             </div>
@@ -63,19 +60,16 @@ const FeaturesTwo = ({data}) => {
             data-aos='fade-up'
             data-aos-duration={400}
           >
-            <div className='text-center features-item item-hover animation-item bg-white border border-neutral-30 rounded-16 transition-1 hover-bg-main-600 hover-border-main-600'>
+            <div className='text-center features-item  animation-item bg-white border border-neutral-30 rounded-16 transition-1'>
               <span className='mb-32 w-110 h-110 flex-center d-inline-flex bg-main-25 rounded-circle'>
-                <img
-                  src='/assets/images/icons/features-two-icon2.png'
-                  className='animate__bounce'
-                  alt=''
-                />
+                <i className="ph ph-eye text-thak " style={{fontSize:"50px"}} />
+
               </span>
               <h4 className='mb-16 transition-1 item-hover__text'>
                 VISION
               </h4>
-              <p className='transition-1 item-hover__text text-line-2'>
-                              {data.vision}
+              <p className='transition-1 item-hover__text'>
+                {data.vision}
 
               </p>
               <span className='item-hover__bg w-48 h-1 bg-neutral-500 mt-32' />

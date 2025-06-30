@@ -54,6 +54,18 @@ import Pediatrics from "./pages/department/Pediatrics.jsx";
 import Psychiatry from "./pages/department/Psychiatry.jsx";
 import Radiology from "./pages/department/Radiology.jsx";
 import DeanDetails from "./components/dean/DeanDetails.jsx";
+import PharmacovigilanceCommittee from "./pages/committee/PharmacovigilanceCommittee.jsx";
+import AntiRagging from "./pages/committee/AntiRagging.jsx";
+import CurriculumCommittee from "./pages/committee/CurriculumCommittee.jsx";
+import GenderHarassment from "./pages/committee/GenderHarassment.jsx";
+import HospitalInfection from "./pages/committee/HospitalInfection.jsx";
+import CollegeInfoTable from "./components/CollegeInfoTable.jsx";
+import ForensicMedicine from "./pages/department/ForensicMedicine.jsx";
+import Anatomy from "./pages/department/Anatomy.jsx";
+import Biochemistry from "./pages/department/Biochemistry.jsx";
+import Pathology from "./pages/department/Pathology.jsx";
+import Pharmacology from "./pages/department/Pharmacology.jsx";
+import Physiology from "./pages/department/Physiology.jsx";
 
 function App() {
   return (
@@ -66,7 +78,7 @@ function App() {
         <Route exact path='/index-4' element={<HomePageFour />} />
         <Route exact path='/index-5' element={<HomePageFive />} />
         <Route exact path='/index-6' element={<HomePageSix />} />
-        <Route exact path='/about' element={<AboutPage />} />
+        <Route exact path='/about-us' element={<AboutPage />} />
         <Route exact path='/about-two' element={<AboutTwoPage />} />
         <Route exact path='/about-three' element={<AboutThreePage />} />
         <Route exact path='/about-four' element={<AboutFourPage />} />
@@ -82,7 +94,7 @@ function App() {
         />
         <Route exact path='/cart' element={<CartPage />} />
         <Route exact path='/checkout' element={<CheckoutPage />} />
-        <Route exact path='/contact' element={<ContactPage />} />
+        <Route exact path='/contact-us' element={<ContactPage />} />
         <Route exact path='/course' element={<CoursePage />} />
         <Route exact path='/course-details' element={<CourseDetailsPage />} />
         <Route
@@ -128,9 +140,26 @@ function App() {
         <Route exact path='/department/pediatrics' element={<Pediatrics />} />
         <Route exact path='/department/psychiatry' element={<Psychiatry/>} />
         <Route exact path='/department/radiology' element={<Radiology />} />
+        <Route exact path='/department/forensic-medicine' element={<ForensicMedicine />} />
+        <Route exact path='/department/anatomy' element={<Anatomy />} />
+        <Route exact path='/department/bio-chemistry' element={<Biochemistry />} />
+        <Route exact path='/department/pathology' element={<Pathology />} />
+        <Route exact path='/department/pharmacology' element={<Pharmacology />} />
+        <Route exact path='/department/physiology' element={<Physiology />} />
 
 
         <Route exact path='/dean' element={<DeanDetails/>} />
+
+
+        <Route exact path='/committee/Pharmacovigilance' element={<PharmacovigilanceCommittee />} />
+        <Route exact path='/committee/anti-ragging' element={<AntiRagging />} />
+        <Route exact path='/committee/curriculum-committee' element={<CurriculumCommittee />} />
+        <Route exact path='/committee/hospital-infection-control' element={<HospitalInfection />} />
+        <Route exact path='/committee/gender-harasement' element={<GenderHarassment />} />
+
+        <Route exact path='/pro-fomra' element={<CollegeInfoTable />} />
+
+
 
       </Routes>
     </BrowserRouter>

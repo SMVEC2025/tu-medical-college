@@ -14,19 +14,16 @@ const CounterTwo = () => {
             >
               <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-25 border border-neutral-30'>
                 <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-circle box-shadow-md mb-24'>
-                  <i className='animate__wobble ph ph-users' />
-                </span>
+                  <i className="ph ph-clock-afternoon"></i>                </span>
 
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-                  {({ isVisible }) => (
-                    <h2 className='display-four mb-16 text-neutral-700 counter'>
-                      {isVisible ? <CountUp end={50} /> : null}+
-                    </h2>
-                  )}
+                  <h5 className='display-four mb-16 text-neutral-600 counter'>
+                    24/7 Emergency & Trauma Care
+
+                  </h5>
+
                 </VisibilitySensor>
-                <span className='text-neutral-500 text-lg'>
-                  Doctors{" "}
-                </span>
+
               </div>
             </div>
             <div
@@ -36,18 +33,15 @@ const CounterTwo = () => {
             >
               <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30'>
                 <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
-                  <i className='animate__wobble ph ph-users-three' />
+                  <i className="ph ph-heartbeat"></i>
                 </span>
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-                  {({ isVisible }) => (
-                    <h2 className='display-four mb-16 text-neutral-700 counter'>
-                      {isVisible ? <CountUp end={605} /> : <CountUp end={605} /> }
-                    </h2>
-                  )}
+                  <h5 className='display-four mb-16 text-neutral-600 counter'>
+                    ICU, NICU, and Dialysis Units
+
+                  </h5>
                 </VisibilitySensor>
-                <span className='text-neutral-500 text-lg'>
-                  Beds
-                </span>
+
               </div>
             </div>
             <div
@@ -57,18 +51,15 @@ const CounterTwo = () => {
             >
               <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-25 border border-neutral-30'>
                 <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-circle box-shadow-md mb-24'>
-                  <i className='animate__wobble ph ph-thumbs-up' />
+                  <i className="ph ph-stethoscope"></i>
                 </span>
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-                  {({ isVisible }) => (
-                    <h2 className='display-four mb-16 text-neutral-700 counter'>
-                      {isVisible ? <CountUp end={30} /> : <CountUp end={30} /> }
-                    </h2>
-                  )}
+                  <h5 className='display-four mb-16 text-neutral-600 counter'>
+                    CT, MRI & Diagnostic Labs
+
+                  </h5>
                 </VisibilitySensor>
-                <span className='text-neutral-500 text-lg'>
-                  Emergency Beds
-                </span>
+
               </div>
             </div>
             <div
@@ -78,16 +69,15 @@ const CounterTwo = () => {
             >
               <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30'>
                 <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
-                  <i className='animate__wobble ph ph-envelope-simple-open' />
+                  <i className="ph ph-drop"></i>
                 </span>
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-                  {({ isVisible }) => (
-                    <h2 className='display-four mb-16 text-neutral-700 counter'>
-                      {isVisible ? <CountUp end={500} /> : null}K
-                    </h2>
-                  )}
+                  <h5 className='display-four mb-16 text-neutral-600 counter'>
+                    Pharmacy and Blood Bank Services
+
+
+                  </h5>
                 </VisibilitySensor>
-                <span className='text-neutral-500 text-lg'>Total Campuses</span>
               </div>
             </div>
           </div>

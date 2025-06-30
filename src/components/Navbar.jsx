@@ -3,9 +3,9 @@ import MenuItems from './MenuItems';
 
 const Navbar = () => {
   const topLinks = [
-    { title: 'Contact us', link: '/contact' },
+    { title: 'Contact us', link: '/contact-us' },
     { title: 'Hospital', link: '/hospital' },
-    { title: 'MARB NMC Pro-Forma', link: '/marb' },
+    { title: 'MARB NMC Pro-Forma', link: '/pro-fomra' },
     { title: 'MSR CLAUSE B.1.11', link: '/msr' },
     { title: 'Gallery', link: '/gallery' },
     { title: 'Career', link: '/career' },
@@ -13,25 +13,22 @@ const Navbar = () => {
 
   const menu = [
     { title: 'Home', link: '/' },
-    { title: 'About us', link: '/about' },
+    { title: 'About us', link: '/about-us' },
     {
       title: 'Academics',
       submenu: [
         {
-          title: 'Community cell',
+          title: 'Committee cell',
           submenu: [
-            { title: 'Anti Ragging Committee', link: '/academics/bsc' },
-            { title: 'Gender Harassment Committee', link: '/academics/ba' },
-            { title: 'Pharmacovigilance Committee', link: '/academics/ba' },
-            { title: 'Ethics Committee', link: '/academics/ba' },
-            { title: 'Curriculum Committee', link: '/academics/ba' },
-            { title: 'College Council Committee', link: '/academics/ba' },
-            { title: 'Employee Discipline And Grievance Redressal', link: '/academics/ba' },
-            { title: 'Student Union and Welfare Committee', link: '/academics/ba' },
-            { title: 'Student Grievance Redressal Committee', link: '/academics/ba' },
+            { title: 'GENDER HARASSMENT COMMITTEE', link: '/committee/gender-harasement' },
+            { title: 'ANTI RAGGING COMMITTEE', link: '/committee/anti-ragging' },
+            { title: 'CURRICULUM COMMITTEE - 2025', link: '/committee/curriculum-committee' },
+            { title: 'HOSPITAL INFECTION CONTROL COMMITTEE', link: '/committee/hospital-infection-control' },
+            { title: 'PHARMACOVIGILANCE COMMITTEE', link: '/committee/Pharmacovigilance' },
+            
           ],
         },
-       
+
       ],
     },
     { title: 'Infrastructure', link: '/infrastructure' },
@@ -39,12 +36,12 @@ const Navbar = () => {
     { title: 'Research', link: '/research' },
     {
       title: 'Departments',
-    //   submenu: [
-    //     { title: 'Pre Clinical', link: '/departments/physics' },
-    //     { title: 'Para clinical', link: '/departments/chemistry' },
-    //     { title: 'clinical', link: '/departments/chemistry' },
-    //   ],
-       submenu: [
+      //   submenu: [
+      //     { title: 'Pre Clinical', link: '/departments/physics' },
+      //     { title: 'Para clinical', link: '/departments/chemistry' },
+      //     { title: 'clinical', link: '/departments/chemistry' },
+      //   ],
+      submenu: [
         { title: 'Ophthalmology', link: '/department/ophthalmology' },
         // { title: 'general surgery', link: '/departments/chemistry' },
         { title: 'diagnostics', link: '/department/diagnostics' },
@@ -58,12 +55,20 @@ const Navbar = () => {
         { title: 'Obstetrics & Gynaecology', link: '/department/obstetrics' },
         { title: 'Radiology', link: '/department/radiology' },
         { title: 'Psychiatry', link: '/department/psychiatry' },
+        { title: 'Opthalmology', link: '/department/opthalmology' },
+        { title: 'Forensic Medicine', link: '/department/forensic-medicine' },
+        { title: 'Anatomy', link: '/department/anatomy' },
+        { title: 'BioChemistry', link: '/department/bio-chemistry' },
+        { title: 'Pathology', link: '/department/pathology' },
+        { title: 'pharmacology', link: '/department/pharmacology' },
+        { title: 'Physiology', link: '/department/physiology' },
       ],
     },
-    {
+    { 
       title: 'Admin & Faculty Details',
       submenu: [
         { title: 'Admin', link: '/admin' },
+        { title: 'Dean', link: '/dean' },
         { title: 'non clinical', link: '/faculty' },
         { title: 'clinical', link: '/faculty' },
       ],
@@ -73,9 +78,9 @@ const Navbar = () => {
   return (
     <>
       <div className="top-header">
-         <div className="top-links">
-        
-            <a href=''>+91 94437 69196</a>
+        <div className="top-links">
+
+          <a href=''>+91 94437 69196</a>
         </div>
         <div className="top-links">
           {topLinks.map((item, idx) => (
@@ -87,7 +92,7 @@ const Navbar = () => {
       <nav className="main-navbar">
         <div className="navbar-left">
           <img src="https://takshashilauniv.ac.in/wp-content/uploads/2025/01/logo-new.png" alt="logo" className="logo-img" />
-          
+
         </div>
 
         <ul className="nav-menu">

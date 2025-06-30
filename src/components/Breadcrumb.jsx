@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Breadcrumb = ({ title }) => {
   return (
-    <section className='breadcrumb py-120 bg-main-25 position-relative z-1 overflow-hidden mb-0'>
+    <section className='breadcrumb py-120 bg-main-50 position-relative z-1 overflow-hidden mb-0'>
      
       <div className='container'>
         <div className='row justify-content-center'>
