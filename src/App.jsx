@@ -66,6 +66,7 @@ import Biochemistry from "./pages/department/Biochemistry.jsx";
 import Pathology from "./pages/department/Pathology.jsx";
 import Pharmacology from "./pages/department/Pharmacology.jsx";
 import Physiology from "./pages/department/Physiology.jsx";
+import MsiDetail from "./components/msi/MsiDetail.jsx";
 
 function App() {
   return (
@@ -158,6 +159,10 @@ function App() {
         <Route exact path='/committee/gender-harasement' element={<GenderHarassment />} />
 
         <Route exact path='/pro-fomra' element={<CollegeInfoTable />} />
+
+
+        <Route exact path='/msi-detail' element={<MsiDetail/>} />
+
 
 
 
