@@ -12,8 +12,8 @@ const CounterTwo = () => {
               data-aos='fade-up'
               data-aos-duration={200}
             >
-              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-25 border border-neutral-30'>
-                <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-circle box-shadow-md mb-24'>
+              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-50 border border-neutral-30'>
+                <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
                   <i className="ph ph-clock-afternoon"></i>                </span>
 
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
@@ -31,7 +31,7 @@ const CounterTwo = () => {
               data-aos='fade-up'
               data-aos-duration={400}
             >
-              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30'>
+              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-50 border border-neutral-30'>
                 <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
                   <i className="ph ph-heartbeat"></i>
                 </span>
@@ -49,8 +49,8 @@ const CounterTwo = () => {
               data-aos='fade-up'
               data-aos-duration={600}
             >
-              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-25 border border-neutral-30'>
-                <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-circle box-shadow-md mb-24'>
+              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12  bg-main-two-50 border border-neutral-30'>
+                <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
                   <i className="ph ph-stethoscope"></i>
                 </span>
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
@@ -67,7 +67,7 @@ const CounterTwo = () => {
               data-aos='fade-up'
               data-aos-duration={800}
             >
-              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30'>
+              <div className='counter-three-item animation-item h-100 text-center px-16 py-32 rounded-12  bg-main-two-50  border border-neutral-30'>
                 <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
                   <i className="ph ph-drop"></i>
                 </span>
