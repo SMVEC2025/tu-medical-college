@@ -92,7 +92,7 @@ const Navbar = () => {
 
       <nav className="main-navbar">
         <div className="navbar-left">
-          <img src="https://takshashilauniv.ac.in/wp-content/uploads/2025/01/logo-new.png" alt="logo" className="logo-img" />
+          <img src="/assets/images/logo/logo-full.png" alt="logo" className="logo-img" />
 
         </div>
 

@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 
 const FooterOne = () => {
+
+  const handleNavigate = (url) => {
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
   return (
     <footer className='footer bg-main-25 position-relative z-1'>
 
@@ -18,49 +22,15 @@ const FooterOne = () => {
                 <p className='my-32'>
                   Takshashila University was established with the vision to recreate the glory of the ancient Takshashila, India’s oldest university of higher learning.
                 </p>
-                <ul className='social-list flex-align gap-24'>
-                  <li className='social-list__item'>
-                    <Link
-                      href='https://www.facebook.com'
-                      className='text-main-two-600 text-2xl hover-text-main-two-600'
-                    >
-                      <i className='ph-bold ph-facebook-logo' />
-                    </Link>
-                  </li>
-                  <li className='social-list__item'>
-                    <Link
-                      href='https://www.twitter.com'
-                      className='text-main-two-600 text-2xl hover-text-main-two-600'
-                    >
-                      {" "}
-                      <i className='ph-bold ph-twitter-logo' />
-                    </Link>
-                  </li>
-                  <li className='social-list__item'>
-                    <Link
-                      href='https://www.linkedin.com'
-                      className='text-main-two-600 text-2xl hover-text-main-two-600'
-                    >
-                      <i className='ph-bold ph-instagram-logo' />
-                    </Link>
-                  </li>
-                  <li className='social-list__item'>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='text-main-two-600 text-2xl hover-text-main-two-600'
-                    >
-                      <i className='ph-bold ph-whatsapp-logo' />
-                    </Link>
-                  </li>
-                  <li className='social-list__item'>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='text-main-two-600 text-2xl hover-text-main-two-600'
-                    >
-                      <i className='ph-bold ph-youtube-logo' />
-                    </Link>
-                  </li>
-                </ul>
+                <div className="footer-socials">
+                  <i onClick={()=>{handleNavigate('https://www.facebook.com/people/Takshashila-University/100083042965090')}} className='ph-bold ph-facebook-logo' />
+                  <i onClick={()=>{handleNavigate('https://x.com/i/flow/login?redirect_after_login=%2Ftakshauniv')}} className='ph-bold ph-twitter-logo' />
+                  <i onClick={()=>{handleNavigate('https://www.instagram.com/takshashilauniv/')}} className='ph-bold ph-instagram-logo' />
+                  <i onClick={()=>{handleNavigate('')}} className='ph-bold ph-whatsapp-logo' />
+                  <i onClick={()=>{handleNavigate('https://www.youtube.com/@takshashilauniversityofficial')}} className='ph-bold ph-youtube-logo' />
+
+                </div>
+               
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={400}>

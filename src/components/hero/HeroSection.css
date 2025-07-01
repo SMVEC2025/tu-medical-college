@@ -27,6 +27,7 @@
   text-align: center;
   background: rgba(0, 0, 0, 0.4); /* dark overlay for readability */
   padding: 0 20px;
+  transform: translateY(100px);
 }
 
 .hero-overlay h1 {
