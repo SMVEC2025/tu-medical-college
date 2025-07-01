@@ -67,6 +67,7 @@ import Pathology from "./pages/department/Pathology.jsx";
 import Pharmacology from "./pages/department/Pharmacology.jsx";
 import Physiology from "./pages/department/Physiology.jsx";
 import MsiDetail from "./components/msi/MsiDetail.jsx";
+import Hospital from "./pages/hospital/Hospital.jsx";
 
 function App() {
   return (
@@ -162,6 +163,10 @@ function App() {
 
 
         <Route exact path='/mci-detail' element={<MsiDetail/>} />
+
+
+        <Route exact path='/hospital' element={<Hospital/>} />
+
 
 
 

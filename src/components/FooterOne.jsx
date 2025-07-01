@@ -86,13 +86,7 @@ const FooterOne = () => {
                       Anti Ragging
                     </Link>
                   </li>
-                  <li className='mb-16'>
-                    <Link
-                      to='/courses'
-                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
-                    >
-                      Curriculum Committee                    </Link>
-                  </li>
+                  
                   <li className='mb-16'>
                     <Link
                       to='/courses'
@@ -186,7 +180,7 @@ const FooterOne = () => {
               <p className='bottom-footer__text'>
                 {" "}
                 Copyright © 2025 <span className='fw-semibold'>
-                  Takshashila University{" "}
+                Takshashila University{" "}
                 </span>{" "}
                 All Rights Reserved.
               </p>

@@ -2,6 +2,7 @@ import AboutThree from "../components/AboutThree";
 import BannerThree from "../components/BannerThree";
 import BlogTwo from "../components/BlogTwo";
 import BrandTwo from "../components/BrandTwo";
+import ChatBot from "../components/chatbot/ChatBot";
 import ChooseUsOne from "../components/ChooseUsOne";
 import ChooseUsTwo from "../components/ChooseUsTwo";
 import CounterTwo from "../components/CounterTwo";
@@ -24,24 +25,25 @@ const HomePageThree = () => {
     <>
       {/* Preloader */}
       {/* <Preloader /> */}
-   {/* <TopBar/>
+      {/* <TopBar/>
       {/* HeaderOne */}
-      {/* <HeaderOne /> */} 
-      <Navbar/>
-    
+      {/* <HeaderOne /> */}
+      <Navbar />
+      <ChatBot/>
+
       {/* Animation */}
       {/* <Animation /> */}
 
       {/* BannerThree */}
       {/* <BannerThree /> */}
-      <HeroSection/>
+      <HeroSection />
 
       {/* InfoTwo */}
       {/* <InfoTwo /> */}
-     
+
       {/* AboutThree */}
-      <AboutThree read={true}/>
-      
+      <AboutThree read={true} />
+
 
       {/* VideoOne */}
       <VideoOne />

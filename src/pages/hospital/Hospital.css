@@ -1,0 +1,122 @@
+.hospital-container{
+  width: 100%;
+  
+  background-color: #fefaf7;
+}
+
+.hospital-page {
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hospital-page h2 {
+  font-size: 30px;
+  color: #f15b29;
+  margin-bottom: 25px;
+  text-align: left;
+  position: relative;
+}
+
+.hospital-page h2::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  width: 150px;
+  height: 3px;
+  background: #f15b29c0;
+  display: block;
+  margin: 8px auto 0;
+  border-radius: 3px;
+}
+
+.hospital-page p {
+  font-size: 17px;
+  line-height: 1.7;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hospital-page section {
+  margin-bottom: 60px;
+}
+
+/* Grid layout for all card sections */
+.hospital-page section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card Styling */
+.hospital-page section li {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  padding: 30px 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  text-align: left;
+}
+
+.hospital-page section li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon circle */
+.hospital-page section li .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ffe1d2;
+  color: #f15b29;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Card title */
+.hospital-page section li h3 {
+  font-size: 20px;
+  color: #4e4e4e;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Card text */
+.hospital-page section li p {
+  font-size: 15.5px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Section-specific icon background override (optional) */
+.medical-specialities .icon,
+.surgical-specialities .icon,
+.diagnostic-services .icon,
+.facilities .icon {
+  background-color: #ffe1d2;
+  color: #f15b29;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .hospital-page h2 {
+    font-size: 24px;
+  }
+
+  .hospital-page section li {
+    padding: 24px 18px;
+  }
+}
