@@ -13,7 +13,7 @@ const AboutThree = ({read}) => {
                 <div className='row gy-4'>
                   <div className='col-sm-8'>
                     <img
-                      src='https://www.eduska.com/assets/user_photo/45bdf69342120e8dbcf39ecf779d1f99.jpg'
+                      src='/assets/images/img/doctor.webp'
                       style={{ width: "464px", height: "600px", objectFit: 'cover' }}
                       alt=''
                       className='about-three-thumbs__one rounded-16 w-100'
@@ -80,7 +80,7 @@ const AboutThree = ({read}) => {
                       </div> */}
                     </div>
                     <img
-                      src='https://takshashilauniv.ac.in/wp-content/uploads/2025/03/06.webp'
+                      src='/assets/images/img/tumcstudents.png'
                       alt=''
                       className='about-three-thumbs__two rounded-16 w-100'
                       data-tilt=''
