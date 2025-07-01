@@ -6,7 +6,7 @@ const Navbar = () => {
     { title: 'Contact us', link: '/contact-us' },
     { title: 'Hospital', link: '/hospital' },
     { title: 'MARB NMC Pro-Forma', link: '/pro-fomra' },
-    { title: 'MSR CLAUSE B.1.11', link: '/msi-detail' },
+    { title: 'MSR CLAUSE B.1.11', link: '/mci-detail' },
     { title: 'Gallery', link: '/gallery' },
     { title: 'Career', link: '/career' },
   ];

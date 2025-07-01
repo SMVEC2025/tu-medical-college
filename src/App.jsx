@@ -161,7 +161,7 @@ function App() {
         <Route exact path='/pro-fomra' element={<CollegeInfoTable />} />
 
 
-        <Route exact path='/msi-detail' element={<MsiDetail/>} />
+        <Route exact path='/mci-detail' element={<MsiDetail/>} />
 
 
 
