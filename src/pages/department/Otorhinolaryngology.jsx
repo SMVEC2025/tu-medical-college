@@ -19,7 +19,7 @@ const Otorhinolaryngology = () => {
     
       <Navbar/>
 
-      <Breadcrumb title={"Department of Otorhinolaryngology"} />
+      <Breadcrumb heading={true} title={"Department of Otorhinolaryngology"} />
 
   
       <FeaturesTwo data={deptData}/>

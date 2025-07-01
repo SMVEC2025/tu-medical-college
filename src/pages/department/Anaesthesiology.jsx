@@ -18,7 +18,7 @@ const Anaesthesiology = () => {
     
       <Navbar/>
 
-      <Breadcrumb title={"Department of Anaesthesiology"} />
+      <Breadcrumb heading={true} title={"Department of Anaesthesiology"} />
 
   
       <FeaturesTwo data={deptData}/>

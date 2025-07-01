@@ -2,7 +2,7 @@ import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 import VisibilitySensor from "react-visibility-sensor";
 
-const AboutThree = () => {
+const AboutThree = ({read}) => {
   return (
     <section className='about-three py-120 position-relative z-1 bg-main-25 overflow-hidden'>
       <div className='position-relative'>
@@ -117,15 +117,17 @@ const AboutThree = () => {
                   </p>
                 </div>
                
-                <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
+                {read &&(
+                  <div className='pt-40  border-top border-neutral-50 mt-40 border-dashed border-0 '>
                   <Link
-                    to='/about'
-                    className='btn bg-color-thak rounded-pill flex-align d-inline-flex gap-8'
+                    to='/about-us'
+                    className='btn  bg-color-thak  rounded-pill flex-align d-inline-flex gap-8  '
                   >
-                    Read More
-                    <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
+                    <span> Read More</span>
+                    <i className='ph-bold  ph-arrow-up-right d-flex text-lg  ' />
                   </Link>
                 </div>
+                )}
               </div>
             </div>
           </div>

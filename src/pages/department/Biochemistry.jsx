@@ -18,7 +18,7 @@ const Biochemistry = () => {
     
       <Navbar/>
 
-      <Breadcrumb title={"Department of Biochemistry"} />
+      <Breadcrumb heading={true} title={"Department of Biochemistry"} />
 
   
       <FeaturesTwo data={deptData}/>

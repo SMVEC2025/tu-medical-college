@@ -40,7 +40,7 @@ const HomePageThree = () => {
       {/* <InfoTwo /> */}
      
       {/* AboutThree */}
-      <AboutThree />
+      <AboutThree read={true}/>
       
 
       {/* VideoOne */}

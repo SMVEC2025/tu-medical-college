@@ -14,7 +14,7 @@ const HeroSection = () => {
         <p>
          At Takshashila Medical College Hospital, we are more than a center of learning—we are a movement towards transforming healthcare.
         </p>
-        <a href="#admission" className="admission-btn">View More</a>
+        <a href="/about-us" className="admission-btn hover-text-white">View More</a>
       </div>
     </section>
   );

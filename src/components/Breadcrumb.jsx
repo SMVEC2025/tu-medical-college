@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Breadcrumb = ({ title }) => {
+const Breadcrumb = ({ title,heading }) => {
   return (
     <section className='breadcrumb py-120 bg-main-50 position-relative z-1 overflow-hidden mb-0'>
      
@@ -19,7 +19,7 @@ const Breadcrumb = ({ title }) => {
                     className='breadcrumb__link text-neutral-500 hover-text-main-600 fw-medium'
                   >
                     <i className='text-lg d-inline-flex ph-bold ph-house' />{" "}
-                    Department
+                    {heading?"Department":'Home'}
                   </Link>
                 </li>
 

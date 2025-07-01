@@ -7,8 +7,8 @@ import Navbar from "../components/Navbar";
 
 
 const deptData = {
-  mission:"this is mission",
-  vision:"this is hello",
+  mission:"Loading...",
+  vision:"Loading...",
   title:"title",
   para:"hello"
 }
@@ -18,7 +18,7 @@ const AboutTwoPage = () => {
     
       <Navbar/>
 
-      <Breadcrumb title={"Department of radiology"} />
+      <Breadcrumb heading={true} title={"Department of radiology"} />
 
   
       <FeaturesTwo data={deptData}/>
