@@ -19,7 +19,7 @@ const AboutPage = () => {
 
       {/* HeaderOne */}
 
-       <Navbar/>
+       
       {/* Breadcrumb */}
       <Breadcrumb title={"About Us"} />
 
@@ -39,7 +39,7 @@ const AboutPage = () => {
      
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

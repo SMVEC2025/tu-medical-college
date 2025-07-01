@@ -16,14 +16,14 @@ const Dentistry = () => {
   return (
     <>
     
-      <Navbar/>
+      
 
       <Breadcrumb heading={true} title={"Department of Dentistry"} />
 
   
       <FeaturesTwo data={deptData}/>
 
-      <FooterThree />
+      
     </>
   );
 };

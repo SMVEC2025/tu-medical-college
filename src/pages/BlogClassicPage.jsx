@@ -28,7 +28,7 @@ const BlogClassicPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

@@ -36,7 +36,7 @@ const FaqPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

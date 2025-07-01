@@ -16,14 +16,14 @@ const Biochemistry = () => {
   return (
     <>
     
-      <Navbar/>
+      
 
       <Breadcrumb heading={true} title={"Department of Biochemistry"} />
 
   
       <FeaturesTwo data={deptData}/>
 
-      <FooterThree />
+      
     </>
   );
 };

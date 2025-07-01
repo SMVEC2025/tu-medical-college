@@ -17,14 +17,14 @@ const Pediatrics= () => {
   return (
     <>
     
-      <Navbar/>
+      
 
       <Breadcrumb heading={true} title={"Department of Paediatrics"} />
 
   
       <FeaturesTwo data={deptData}/>
 
-      <FooterThree />
+      
     </>
   );
 };

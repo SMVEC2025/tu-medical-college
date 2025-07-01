@@ -17,14 +17,14 @@ const Otorhinolaryngology = () => {
   return (
     <>
     
-      <Navbar/>
+      
 
       <Breadcrumb heading={true} title={"Department of Otorhinolaryngology"} />
 
   
       <FeaturesTwo data={deptData}/>
 
-      <FooterThree />
+      
     </>
   );
 };

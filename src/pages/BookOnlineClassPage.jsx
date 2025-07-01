@@ -28,7 +28,7 @@ const BookOnlineClassPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

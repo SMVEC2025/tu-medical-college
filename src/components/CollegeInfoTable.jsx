@@ -38,7 +38,7 @@ const collegeData = [
 const CollegeInfoTable = () => {
   return (
    <>
-   <Navbar/>
+   
    <Breadcrumb title="Pro-Forma for Display of Information"/>
     <div className="college-info-container">
       {/* <h2>Pro-Forma for Display of Information</h2> */}
@@ -61,7 +61,7 @@ const CollegeInfoTable = () => {
         </tbody>
       </table>
     </div>
-    <FooterThree/>
+    
    </>
   );
 };

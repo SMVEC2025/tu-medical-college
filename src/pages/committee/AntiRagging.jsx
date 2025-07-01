@@ -74,7 +74,7 @@ const AntiRagging = () => {
 };
   return (
     <>
-    <Navbar/>
+    
     <div className="pharma-container">
       <header className="pharma-header">
         <h1>{committeesData.antiRagging.title}</h1>

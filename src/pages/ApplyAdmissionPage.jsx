@@ -28,7 +28,7 @@ const ApplyAdmissionPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

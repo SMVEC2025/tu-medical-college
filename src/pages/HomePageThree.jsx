@@ -13,6 +13,7 @@ import FooterThree from "../components/FooterThree";
 import HeaderOne from "../components/HeaderOne";
 import HeroSection from "../components/hero/HeroSection";
 import InfoTwo from "../components/InfoTwo";
+import MobileMenu from "../components/mobilemenu/MobileMenu";
 import Navbar from "../components/Navbar";
 import TestimonialsThree from "../components/TestimonialsThree";
 import TopBar from "../components/TopBar";
@@ -23,13 +24,8 @@ import Preloader from "../helper/Preloader";
 const HomePageThree = () => {
   return (
     <>
-      {/* Preloader */}
-      {/* <Preloader /> */}
-      {/* <TopBar/>
-      {/* HeaderOne */}
-      {/* <HeaderOne /> */}
-      <Navbar />
-      <ChatBot/>
+  
+      
 
       {/* Animation */}
       {/* <Animation /> */}
@@ -71,7 +67,7 @@ const HomePageThree = () => {
       {/* <BrandTwo /> */}
 
       {/* FooterThree */}
-      <FooterOne />
+      
     </>
   );
 };

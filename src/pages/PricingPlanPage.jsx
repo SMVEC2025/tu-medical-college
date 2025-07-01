@@ -28,7 +28,7 @@ const PricingPlanPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

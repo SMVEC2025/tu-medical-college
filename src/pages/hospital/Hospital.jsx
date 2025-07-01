@@ -69,7 +69,7 @@ function Hospital() {
 
   return (
     <>
-      <Navbar />
+      
       
       <div className='hospital-container'>
         <Breadcrumb title={"Hospital"}/>
@@ -130,7 +130,7 @@ function Hospital() {
           </section>
         </div>
       </div>
-      <FooterOne />
+      
     </>
   );
 }

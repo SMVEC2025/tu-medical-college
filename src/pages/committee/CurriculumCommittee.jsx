@@ -74,7 +74,7 @@ const CurriculumCommittee = () => {
 };
   return (
     <>
-    <Navbar/>
+    
     <div className="pharma-container">
       <header className="pharma-header">
         <h1>{committeesData.curriculum.title}</h1>

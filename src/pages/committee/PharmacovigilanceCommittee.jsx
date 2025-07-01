@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar';
 const PharmacovigilanceCommittee = () => {
   return (
     <>
-    <Navbar/>
+    
     <div className="pharma-container">
       <header className="pharma-header">
         <h1>Pharmacovigilance Committee</h1>

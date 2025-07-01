@@ -74,7 +74,7 @@ const GenderHarassment = () => {
 };
   return (
     <>
-    <Navbar/>
+    
     <div className="pharma-container">
       <header className="pharma-header">
         <h1>{committeesData.genderHarassment.title}</h1>

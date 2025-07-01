@@ -28,7 +28,7 @@ const FavoriteCoursePage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

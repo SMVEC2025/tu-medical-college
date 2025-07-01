@@ -87,7 +87,7 @@ function MsiDetail() {
 
     return (
         <>
-            <Navbar />
+            
             <div className='msi-main'>
                 <h2>Biometric Attendance Dashboard</h2>
                 <div className='msi-splitter'>
@@ -112,7 +112,7 @@ function MsiDetail() {
                     </div>
                 </div>
             </div>
-            <FooterOne />
+            
         </>
     )
 }

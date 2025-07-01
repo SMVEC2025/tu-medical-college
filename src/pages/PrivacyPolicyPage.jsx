@@ -28,7 +28,7 @@ const PrivacyPolicyPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

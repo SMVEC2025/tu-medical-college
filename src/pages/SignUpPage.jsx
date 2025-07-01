@@ -24,7 +24,7 @@ const SignUpPage = () => {
       <SignUpInner />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

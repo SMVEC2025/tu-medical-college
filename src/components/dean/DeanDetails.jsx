@@ -30,7 +30,7 @@ Tamil Nadu - 604305, India`,
 
   return (
    <>
-   <Navbar/>
+   
    <Breadcrumb title={"Dean"} />
     <div className="dean-container">
       {deans.map((dean, index) => (
@@ -46,7 +46,7 @@ Tamil Nadu - 604305, India`,
         </div>
       ))}
     </div>
-    <FooterThree/>
+    
    </>
   );
 };

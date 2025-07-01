@@ -28,7 +28,7 @@ const InstructorTwoPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

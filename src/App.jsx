@@ -68,11 +68,13 @@ import Pharmacology from "./pages/department/Pharmacology.jsx";
 import Physiology from "./pages/department/Physiology.jsx";
 import MsiDetail from "./components/msi/MsiDetail.jsx";
 import Hospital from "./pages/hospital/Hospital.jsx";
+import MainLayout from "./MainLayout.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
+      <MainLayout>
       <Routes>
         <Route exact path='/' element={<HomePageThree />} />
         <Route exact path='/index-2' element={<HomePageTwo />} />
@@ -172,6 +174,7 @@ function App() {
 
 
       </Routes>
+      </MainLayout>
     </BrowserRouter>
   );
 }

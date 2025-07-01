@@ -60,7 +60,7 @@ const HomePageFour = () => {
       <CertificateThree />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

@@ -28,7 +28,7 @@ const CourseListViewPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

@@ -39,7 +39,7 @@ const AboutThreePage = () => {
       <TestimonialsThree />
 
       {/* FooterThree */}
-      <FooterThree />
+      
     </>
   );
 };

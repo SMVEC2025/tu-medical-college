@@ -28,7 +28,7 @@ const CourseDetailsPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

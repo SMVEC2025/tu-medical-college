@@ -10,7 +10,7 @@ import Navbar from "../components/Navbar";
 const ContactPage = () => {
   return (
     <>
-      <Navbar/>
+      
       {/* Breadcrumb */}
       <Breadcrumb title={"Contact Us"} />
 
@@ -21,7 +21,7 @@ const ContactPage = () => {
       {/* <CertificateOne /> */}
 
       {/* FooterOne */}
-      <FooterOne/>
+   
     </>
   );
 };

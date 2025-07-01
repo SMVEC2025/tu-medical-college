@@ -7,7 +7,7 @@ const GalleryPage = () => {
   return (
     <>
    
-      <Navbar/>
+      
       {/* Breadcrumb */}
       <Breadcrumb title={"Gallery"} />
 
@@ -16,7 +16,7 @@ const GalleryPage = () => {
 
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

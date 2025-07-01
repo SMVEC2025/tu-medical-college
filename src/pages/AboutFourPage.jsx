@@ -40,7 +40,7 @@ const AboutFourPage = () => {
       <BrandTwo />
 
       {/* FooterThree */}
-      <FooterThree />
+      
     </>
   );
 };

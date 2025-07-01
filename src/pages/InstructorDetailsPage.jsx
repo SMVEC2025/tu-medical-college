@@ -36,7 +36,7 @@ const InstructorDetailsPage = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };

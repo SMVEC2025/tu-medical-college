@@ -74,7 +74,7 @@ const HospitalInfection = () => {
 };
   return (
     <>
-    <Navbar/>
+    
     <div className="pharma-container">
       <header className="pharma-header">
         <h1>{committeesData.infectionControl.title}</h1>

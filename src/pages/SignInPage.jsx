@@ -24,7 +24,7 @@ const SignInPage = () => {
       <SignInInner />
 
       {/* FooterOne */}
-      <FooterOne />
+      
     </>
   );
 };
