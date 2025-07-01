@@ -75,8 +75,14 @@ function MsiDetail() {
 
     const handleClick = (e) => {
         setState(e)
-        targetRef.current?.scrollIntoView({ behavior: 'smooth' });
-
+        if (targetRef.current) {
+            const elementPosition = targetRef.current.getBoundingClientRect().top + window.pageYOffset;
+            const offset = 200; // adjust this as needed
+            window.scrollTo({
+                top: elementPosition - offset,
+                behavior: 'smooth'
+            });
+        }
     }
 
     return (

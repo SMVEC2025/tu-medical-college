@@ -8,10 +8,8 @@ const GallerySection = () => {
         <div className='container'>
           <div className='section-heading text-center'>
             <div className='flex-align d-inline-flex gap-8 mb-16'>
-              <span className='text-main-600 text-2xl d-flex'>
-                <i className='ph-bold ph-book-open' />
-              </span>
-              <h5 className='text-main-600 mb-0'>Gallery</h5>
+              
+              <h5 className='text-main-two-600 mb-0'>Gallery</h5>
             </div>
             <h2 className='mb-24'>Explore Our Gallery</h2>
             <p className=''>
@@ -20,62 +18,7 @@ const GallerySection = () => {
             </p>
           </div>
           <div className='text-center'>
-            <div
-              className='nav-tab-wrapper bg-white border border-neutral-40 p-16 mb-40 d-inline-block'
-              data-aos='zoom-out'
-            >
-              <ul
-                className='nav nav-pills common-tab edit gap-16'
-                id='pills-tab'
-                role='tablist'
-              >
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8 active'
-                    id='pills-education-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-education'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-education'
-                    aria-selected='true'
-                  >
-                    <i className='text-xl d-flex text-main-600 ph-bold ph-squares-four' />
-                    Online Education
-                  </button>
-                </li>
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8'
-                    id='pills-University-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-University'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-University'
-                    aria-selected='false'
-                  >
-                    <i className='text-xl d-flex text-main-600 ph-bold ph-magic-wand' />
-                    University
-                  </button>
-                </li>
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8'
-                    id='pills-Tutors-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-Tutors'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-Tutors'
-                    aria-selected='false'
-                  >
-                    <i className='text-xl d-flex text-main-600 ph-bold ph-code' />
-                    Tutors
-                  </button>
-                </li>
-              </ul>
-            </div>
+           
           </div>
           <div className='tab-content' id='pills-tabContent'>
             <div

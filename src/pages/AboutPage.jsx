@@ -8,6 +8,7 @@ import CounterOne from "../components/CounterOne";
 import FooterOne from "../components/FooterOne";
 import Navbar from "../components/Navbar";
 import TestimonialsOne from "../components/TestimonialsOne";
+import HospitalFacility from "./department/HospitalFacility";
 
 
 const AboutPage = () => {
@@ -29,6 +30,7 @@ const AboutPage = () => {
 
       {/* ChooseUsOne */}
       <ChooseUsOne />
+      <HospitalFacility/>
 
      
 
