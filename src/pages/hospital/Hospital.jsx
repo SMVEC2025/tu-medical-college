@@ -36,83 +36,83 @@ function Hospital() {
   ];
 
   const surgicalSpecialities = [
- {
-    title: 'Dentistry',
-    description: 'Our dentistry department offers advanced surgical procedures including root canal treatment and dental implants, ensuring long-term oral health and functional restoration.',
-  },
-  {
-    title: 'ENT',
-    description: 'Our ENT specialists perform intricate surgical procedures such as Functional Endoscopic Sinus Surgery (FESS) and mastoidectomy to treat chronic sinus and ear conditions effectively.',
-  },
-  {
-    title: 'General Surgery',
-    description: 'Our general surgery unit specializes in minimally invasive procedures including endoscopy and laparoscopy for accurate diagnosis and treatment with quicker recovery.',
-  },
-  {
-    title: 'Obstetrics and Gynaecology',
-    description: 'We offer advanced surgical care for infertility, high-risk pregnancies, and laparoscopic gynecological procedures, ensuring safe and comprehensive women’s health services.',
-  },
-  {
-    title: 'Ophthalmology',
-    description: 'Our ophthalmology team performs cataract surgeries and corrective procedures for refractive errors, using modern techniques to restore and enhance vision.',
-  },
-  {
-    title: 'Orthopaedics',
-    description: 'Our orthopaedic department provides specialized surgeries including spine procedures, arthroscopy, and total joint replacements for improved mobility and pain relief.',
-  }
+    {
+      title: 'Dentistry',
+      description: 'Our dentistry department offers advanced surgical procedures including root canal treatment and dental implants, ensuring long-term oral health and functional restoration.',
+    },
+    {
+      title: 'ENT',
+      description: 'Our ENT specialists perform intricate surgical procedures such as Functional Endoscopic Sinus Surgery (FESS) and mastoidectomy to treat chronic sinus and ear conditions effectively.',
+    },
+    {
+      title: 'General Surgery',
+      description: 'Our general surgery unit specializes in minimally invasive procedures including endoscopy and laparoscopy for accurate diagnosis and treatment with quicker recovery.',
+    },
+    {
+      title: 'Obstetrics and Gynaecology',
+      description: 'We offer advanced surgical care for infertility, high-risk pregnancies, and laparoscopic gynecological procedures, ensuring safe and comprehensive women’s health services.',
+    },
+    {
+      title: 'Ophthalmology',
+      description: 'Our ophthalmology team performs cataract surgeries and corrective procedures for refractive errors, using modern techniques to restore and enhance vision.',
+    },
+    {
+      title: 'Orthopaedics',
+      description: 'Our orthopaedic department provides specialized surgeries including spine procedures, arthroscopy, and total joint replacements for improved mobility and pain relief.',
+    }
   ];
 
   const diagnosticServices = [
-    
-      {
-        title: '2D Echo',
-        description: 'Our 2D Echo service offers precise cardiac imaging to assess heart structure and function for early diagnosis and management of heart conditions.',
-      },
-      {
-        title: 'Audiometry',
-        description: 'Our audiometry tests evaluate hearing ability and detect any hearing impairments, supporting accurate ENT diagnosis and treatment.',
-      },
-      {
-        title: 'CT Scan',
-        description: 'We provide advanced CT scan imaging for detailed cross-sectional views of the body, aiding in quick and accurate diagnosis of various conditions.',
-      },
-      {
-        title: 'Color Doppler',
-        description: 'Our Color Doppler service visualizes blood flow through vessels, helping diagnose blockages, clots, or vascular abnormalities.',
-      },
-      {
-        title: 'ECG/EEG',
-        description: 'We offer ECG and EEG tests to monitor heart rhythms and brain activity, essential for diagnosing cardiac and neurological disorders.',
-      },
-      {
-        title: 'Holter Monitoring',
-        description: 'Our Holter monitoring service tracks heart activity over 24-48 hours to detect irregular heart rhythms and cardiac anomalies.',
-      },
-      {
-        title: 'Mammography',
-        description: 'Our digital mammography provides early detection of breast abnormalities and is essential for breast cancer screening and care.',
-      },
-      {
-        title: 'Ultrasound',
-        description: 'We offer high-resolution ultrasound imaging to assess internal organs, pregnancy progress, and other medical conditions non-invasively.',
-      },
-      {
-        title: 'X-Ray',
-        description: 'Our X-ray services deliver clear radiographic images to identify fractures, infections, or abnormalities in bones and soft tissues.',
-      },
-      {
-        title: 'Laboratory Services - Biochemistry',
-        description: 'Our biochemistry lab provides accurate blood and body fluid analyses to evaluate organ function, metabolic health, and disease markers.',
-      },
-      {
-        title: 'Laboratory Services - Microbiology',
-        description: 'Our microbiology services identify infectious agents like bacteria, viruses, and fungi to guide effective antimicrobial treatment.',
-      },
-      {
-        title: 'Laboratory Services - Pathology',
-        description: 'Our pathology lab offers detailed tissue analysis and cytology for accurate diagnosis of diseases, including cancers and chronic conditions.',
-      }
-    ];
+
+    {
+      title: '2D Echo',
+      description: 'Our 2D Echo service offers precise cardiac imaging to assess heart structure and function for early diagnosis and management of heart conditions.',
+    },
+    {
+      title: 'Audiometry',
+      description: 'Our audiometry tests evaluate hearing ability and detect any hearing impairments, supporting accurate ENT diagnosis and treatment.',
+    },
+    {
+      title: 'CT Scan',
+      description: 'We provide advanced CT scan imaging for detailed cross-sectional views of the body, aiding in quick and accurate diagnosis of various conditions.',
+    },
+    {
+      title: 'Color Doppler',
+      description: 'Our Color Doppler service visualizes blood flow through vessels, helping diagnose blockages, clots, or vascular abnormalities.',
+    },
+    {
+      title: 'ECG/EEG',
+      description: 'We offer ECG and EEG tests to monitor heart rhythms and brain activity, essential for diagnosing cardiac and neurological disorders.',
+    },
+    {
+      title: 'Holter Monitoring',
+      description: 'Our Holter monitoring service tracks heart activity over 24-48 hours to detect irregular heart rhythms and cardiac anomalies.',
+    },
+    {
+      title: 'Mammography',
+      description: 'Our digital mammography provides early detection of breast abnormalities and is essential for breast cancer screening and care.',
+    },
+    {
+      title: 'Ultrasound',
+      description: 'We offer high-resolution ultrasound imaging to assess internal organs, pregnancy progress, and other medical conditions non-invasively.',
+    },
+    {
+      title: 'X-Ray',
+      description: 'Our X-ray services deliver clear radiographic images to identify fractures, infections, or abnormalities in bones and soft tissues.',
+    },
+    {
+      title: 'Laboratory Services - Biochemistry',
+      description: 'Our biochemistry lab provides accurate blood and body fluid analyses to evaluate organ function, metabolic health, and disease markers.',
+    },
+    {
+      title: 'Laboratory Services - Microbiology',
+      description: 'Our microbiology services identify infectious agents like bacteria, viruses, and fungi to guide effective antimicrobial treatment.',
+    },
+    {
+      title: 'Laboratory Services - Pathology',
+      description: 'Our pathology lab offers detailed tissue analysis and cytology for accurate diagnosis of diseases, including cancers and chronic conditions.',
+    }
+  ];
 
 
 
@@ -124,7 +124,7 @@ function Hospital() {
     },
     {
       title: 'Ambulance',
-      icon: <Ambulance/>,
+      icon: <Ambulance />,
       description: 'We offer round-the-clock ambulance services with trained medical personnel and advanced life-support systems for safe and timely patient transport.',
     },
     {
@@ -134,7 +134,7 @@ function Hospital() {
     },
     {
       title: 'Radiology Service',
-      icon: <AudioLines/>,
+      icon: <AudioLines />,
       description: 'Our 24x7 radiology services include X-rays, CT scans, ultrasounds, and Doppler studies, ensuring prompt imaging support for emergency and inpatient care.',
     },
     {
@@ -248,7 +248,8 @@ function Hospital() {
           <section className="scope-of-services">
             <h2>Scope of Hospital Services</h2>
             <p>
-              Our hospital provides a wide range of medical services to cater to the needs of our patients. From general medicine to specialized care, we have a team of experienced doctors and nurses who are dedicated to providing the best possible care.
+              At Takshashila Medical College & Hospital, we offer a comprehensive range of healthcare services designed to meet the diverse medical needs of our patients. Our hospital is equipped with cutting-edge diagnostic and therapeutic technologies, supported by highly qualified medical professionals and dedicated support staff. From preventive care and outpatient consultations to advanced surgical procedures and critical care, we provide integrated services across all major specialties and super-specialties. Our goal is to deliver patient-centered, affordable, and evidence-based healthcare that upholds the highest standards of quality, safety, and compassion. With a focus on continuous improvement and innovation, our hospital ensures that every patient receives timely, personalized, and holistic care.
+
             </p>
           </section>
 
@@ -257,7 +258,7 @@ function Hospital() {
             <ul>
               {medicalSpecialities.map((speciality, index) => (
                 <li key={index}>
-                  <h3 style={{color:"#f15b29"}}>{speciality.title}</h3>
+                  <h3 >{speciality.title}</h3>
                   <p>{speciality.description}</p>
                 </li>
               ))}
@@ -309,13 +310,13 @@ function Hospital() {
               ))}
             </ul>
           </section>
-           <section className="facilities">
+          <section className="facilities">
             <h2>Other Facilities</h2>
             <ul>
               {otherFacilities.map((facility, index) => (
                 <li key={index}>
-          
-                  
+
+
                   <h3>{facility.title}</h3>
                   <p>{facility.description}</p>
                 </li>
