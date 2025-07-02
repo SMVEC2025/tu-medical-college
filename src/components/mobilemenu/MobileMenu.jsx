@@ -21,7 +21,7 @@ const menu = [
   },
   { title: 'Infrastructure', link: '/infrastructure' },
   { title: 'Courses', link: '/courses' },
-  { title: 'Research', link: '/research' },
+  { title: 'Hospital', link: '/hospital' },
   {
     title: 'Departments',
     submenu: [
@@ -55,7 +55,17 @@ const menu = [
       { title: 'clinical', link: '/faculty' },
     ],
   },
-];
+  { title: 'Contact us', link: '/contact-us' },
+  {
+    title: 'others',
+    submenu: [
+      { title: 'MARB NMC Pro-Forma', link: '/pro-fomra' },
+      { title: 'MSR CLAUSE B.1.11', link: '/mci-detail' },
+      { title: 'Research', link: '/research' },
+      { title: 'Gallery', link: '/gallery' },
+      { title: 'Career', link: '/career' },
+    ],
+  },];
 
 const MenuItem = ({ item }) => {
   const [open, setOpen] = useState(false);
