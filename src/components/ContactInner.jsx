@@ -44,10 +44,9 @@ const ContactInner = () => {
                 </span>
                 <div className='flex-grow-1'>
                   <h4 className='mb-12'>Email Address</h4>
-                  <p className='text-neutral-500'>infoexample@gmail.com</p>
-                  <p className='text-neutral-500'>example@gmail.com</p>
+                  <p className='text-neutral-500'>deantmch@takshashilauniv.ac.in</p>
                   <a
-                    href='mailto:infoexample@gmail.com'
+                    href='mailto:deantmch@takshashilauniv.ac.in'
                     className='text-main-two-600 fw-semibold text-decoration-underline mt-16'
                   >
                     Get In Touch
@@ -62,8 +61,7 @@ const ContactInner = () => {
                 </span>
                 <div className='flex-grow-1'>
                   <h4 className='mb-12'>Phone Number</h4>
-                  <p className='text-neutral-500'>+91 94437 69196</p>
-                  <p className='text-neutral-500'>+91 94437 69196</p>
+                  <p className='text-neutral-500'>+91 918925969546</p>
                   <a
                     href='tel:(406)555-0120'
                     className='text-main-two-600 fw-semibold text-decoration-underline mt-16'

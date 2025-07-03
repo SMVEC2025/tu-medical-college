@@ -9,6 +9,9 @@ const Navbar = () => {
     { title: 'MSR CLAUSE B.1.11', link: '/mci-detail' },
     { title: 'Gallery', link: '/gallery' },
     { title: 'Career', link: '/career' },
+    { title: 'Research', link: '/research' },
+    { title: 'Infrastructure', link: '/infrastructure' },
+
   ];
 
   const menu = [
@@ -25,15 +28,14 @@ const Navbar = () => {
             { title: 'CURRICULUM COMMITTEE - 2025', link: '/committee/curriculum-committee' },
             { title: 'HOSPITAL INFECTION CONTROL COMMITTEE', link: '/committee/hospital-infection-control' },
             { title: 'PHARMACOVIGILANCE COMMITTEE', link: '/committee/Pharmacovigilance' },
-            
+
           ],
         },
 
       ],
     },
-    { title: 'Infrastructure', link: '/infrastructure' },
     { title: 'Courses', link: '/courses' },
-    { title: 'Research', link: '/research' },
+
     {
       title: 'Departments',
       //   submenu: [
@@ -64,7 +66,7 @@ const Navbar = () => {
         { title: 'Physiology', link: '/department/physiology' },
       ],
     },
-    { 
+    {
       title: 'Admin & Faculty Details',
       submenu: [
         { title: 'Admin', link: '/admin' },
@@ -77,33 +79,33 @@ const Navbar = () => {
 
   return (
     <>
-     <div className='nav-parent'>
-       <div className="top-header">
-        <div className="top-links">
+      <div className='nav-parent'>
+        <div className="top-header">
+          <div className="top-links">
 
-          <a href=''>+91 94437 69196</a>
+            <a href=''>+91 8925969546</a>
+          </div>
+          <div className="top-links">
+            {topLinks.map((item, idx) => (
+              <a href={item.link} key={idx}>{item.title}</a>
+            ))}
+          </div>
         </div>
-        <div className="top-links">
-          {topLinks.map((item, idx) => (
-            <a href={item.link} key={idx}>{item.title}</a>
-          ))}
-        </div>
+
+        <nav className="main-navbar">
+          <div className="navbar-left">
+            <img src="/assets/images/logo/logo-full.png" alt="logo" className="logo-img" />
+
+
+          </div>
+
+          <ul className="nav-menu">
+            {menu.map((item, idx) => (
+              <MenuItems key={idx} items={item} />
+            ))}
+          </ul>
+        </nav>
       </div>
-
-      <nav className="main-navbar">
-        <div className="navbar-left">
-          <img src="/assets/images/logo/logo-full.png" alt="logo" className="logo-img" />
-          
-
-        </div>
-
-        <ul className="nav-menu">
-          {menu.map((item, idx) => (
-            <MenuItems key={idx} items={item} />
-          ))}
-        </ul>
-      </nav>
-     </div>
     </>
   );
 };

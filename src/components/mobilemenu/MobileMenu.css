@@ -11,7 +11,7 @@
   align-items: center;
   z-index: 100;
   display: none;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 996px) {
     display: flex;
   }
   img{
@@ -30,7 +30,7 @@
   cursor: pointer;
   z-index: 100;
   display: flexbox;
-  @media (min-width:600px) {
+  @media (min-width:996px) {
     display: none;
   }
 }

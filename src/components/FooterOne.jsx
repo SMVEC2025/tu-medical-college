@@ -126,12 +126,8 @@ const FooterOne = () => {
                       to='/tel:(207)555-0119'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
-                      +91 94437 69196                    </Link>
-                    <Link
-                      to='/tel:(704)555-0127'
-                      className='text-neutral-500 d-block hover-text-main-600 mb-0'
-                    >
-                      +91 94437 69196                    </Link>
+                      +91 8925969546                   </Link>
+      
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>
@@ -143,14 +139,9 @@ const FooterOne = () => {
                       to='/mailto:dwallo@gmail.com'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
-                      dwallo@gmail.com
+                      deantmch@takshashilauniv.ac.in 
                     </Link>
-                    <Link
-                      to='/mailto:eduAll@gmail.com'
-                      className='text-neutral-500 d-block hover-text-main-600 mb-0'
-                    >
-                      eduAll@gmail.com
-                    </Link>
+                  
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>

@@ -42,11 +42,11 @@ const ChatBot = () => {
     setChatHistory((prev) => [...prev, { type: "user", text: userText }]);
 
     if (action === "call") {
-      setTimeout(() => window.open("tel:+919876543210"), 300);
+      setTimeout(() => window.open("tel:+918925969546"), 300);
     } else if (action === "whatsapp") {
       setTimeout(() => {
         window.open(
-          "https://wa.me/919876543210?text=Hi%20I%20need%20assistance%20from%20Takshashila%20Medical%20College",
+          "https://wa.me/918925969546?text=Hi%20I%20need%20assistance%20from%20Takshashila%20Medical%20College",
           "_blank"
         );
       }, 300);
@@ -56,7 +56,7 @@ const ChatBot = () => {
         {
           type: "bot",
           text:
-            "🏥 Address:\nTakshashila Medical College & Hospital\n📧 Email: info@takshashilamedical.com",
+            "🏥 Address:\nTakshashila Medical College & Hospital\n📧 Email: deantmch@takshashilauniv.ac.in ",
         },
       ]);
     } else if (action === "emergency") {
@@ -64,7 +64,7 @@ const ChatBot = () => {
         ...prev,
         {
           type: "bot",
-          text: "🚑 Emergency services available 24x7 at +91 1122334455",
+          text: "🚑 Emergency services available 24x7 at +91 8925969546",
         },
       ]);
     }
