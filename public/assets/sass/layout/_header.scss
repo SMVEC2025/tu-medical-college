@@ -1,20 +1,26 @@
 /* Top Header */
-.nav-parent{
+.nav-parent {
     position: fixed;
     left: 0;
     top: 0;
     z-index: 100;
     width: 100%;
+
     @media (max-width:996px) {
-    display: none;
+        display: none;
     }
+
+
 }
+
 .top-header {
     background: #f15a29;
     padding: 6px 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 1000;
+    position: relative;
 }
 
 .top-links a {
@@ -22,17 +28,45 @@
     color: white;
     text-decoration: none;
     font-size: 14px;
-} 
+}
 
 /* Main Navbar */
 .main-navbar {
-    background: #f8f9fa;
     display: flex;
     justify-content: space-between;
     padding: 12px 40px;
     align-items: center;
     flex-direction: row;
-    height: 80px;
+    height: 70px;
+    transition: all 0.3s ease;
+    z-index: 2;
+
+    .nav-link {
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        letter-spacing: 0.3px;
+    }
+
+    &.light {
+        background-color: white;
+
+        .nav-link {
+            color: #f15a29;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+        }
+    }
+
+    &.scrolling {
+        transform: translateY(-200%);
+
+
+    }
+
+    &.stopscrolling {
+        transform: translateY(0);
+    }
+
 }
 
 .navbar-left {
@@ -64,23 +98,35 @@
 .dropdown-item {
     position: relative;
 }
-
+.sub-link a{
+    color: white;
+}
 .nav-menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.nav-item >.nav-link{
+.nav-item>.nav-link {
     font-size: 17px;
-    &:hover{
-           color: #f15a29;
- 
+
+    &:hover {
+        color: #f15a29;
+
     }
 }
-.nav-link{
-    color: rgb(80, 80, 80);
-    font-weight: 400;
+.nav-item>.sub-link {
+    font-size: 17px;
+
+    &:hover {
+        color: #f15a29;
+
+    }
+}
+
+.sub-link{
+    color: #686868;
+    width: 100%;
 }
 /* Main Dropdown */
 .dropdown {
@@ -102,15 +148,18 @@
 
 
 
-.dropdown{
-    .nav-link{
-      padding: 10px 15px;
-      &:hover{
-        background-color: #f15a29;
-        color: white;
-      }
+.dropdown {
+    .sub-link {
+        padding: 10px 15px;
+        text-transform: capitalize;
+
+        &:hover {
+            background-color: #f15a29;
+            color: white;
+        }
     }
 }
+
 .arrow {
     font-size: 15px;
 }

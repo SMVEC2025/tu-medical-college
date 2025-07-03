@@ -1,7 +1,48 @@
-import React from 'react';
+import React, { use, useEffect, useRef, useState } from 'react';
 import MenuItems from './MenuItems';
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const lastScrollY = useRef(0);
+  const [lightNavbar, setLightNavbar] = useState(false)
+  const [scrollDown, setScrollDown] = useState(false)
+  const handleScroll = () => {
+    const currentScroll = window.scrollY;
+    if (location.pathname === "/") {
+      if (currentScroll > 100) {
+        setLightNavbar(true);
+
+        if (currentScroll > lastScrollY.current) {
+          setScrollDown(true); // Scrolling down
+        } else {
+          setScrollDown(false); // Scrolling up
+        }
+      } else {
+        setLightNavbar(false);
+        setScrollDown(false);
+      }
+    } else {
+      setLightNavbar(true);
+      setScrollDown(false);
+    }
+
+
+    lastScrollY.current = currentScroll;
+  };
+  useEffect(() => {
+    if (location.pathname != "/") {
+      setLightNavbar(true);
+      setScrollDown(false);
+    } else {
+      handleScroll()
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [location.pathname, setLightNavbar, setScrollDown])
+
+ 
+
   const topLinks = [
     { title: 'Contact us', link: '/contact-us' },
     { title: 'Hospital', link: '/hospital' },
@@ -23,11 +64,11 @@ const Navbar = () => {
         {
           title: 'Committee cell',
           submenu: [
-            { title: 'GENDER HARASSMENT COMMITTEE', link: '/committee/gender-harasement' },
-            { title: 'ANTI RAGGING COMMITTEE', link: '/committee/anti-ragging' },
-            { title: 'CURRICULUM COMMITTEE - 2025', link: '/committee/curriculum-committee' },
-            { title: 'HOSPITAL INFECTION CONTROL COMMITTEE', link: '/committee/hospital-infection-control' },
-            { title: 'PHARMACOVIGILANCE COMMITTEE', link: '/committee/Pharmacovigilance' },
+            { title: 'Gender Harassment Committee', link: '/committee/gender-harasement' },
+            { title: 'Anti Ragging Committee', link: '/committee/anti-ragging' },
+            { title: 'Curriculum Committee - 2025', link: '/committee/curriculum-committee' },
+            { title: 'hospital Infection Control Committee', link: '/committee/hospital-infection-control' },
+            { title: 'Pharmacovigilance Committee', link: '/committee/Pharmacovigilance' },
 
           ],
         },
@@ -46,7 +87,7 @@ const Navbar = () => {
       submenu: [
         { title: 'Ophthalmology', link: '/department/ophthalmology' },
         // { title: 'general surgery', link: '/departments/chemistry' },
-        { title: 'diagnostics', link: '/department/diagnostics' },
+        { title: 'diagnostics Services', link: '/department/diagnostics' },
         { title: 'orthopedics', link: '/department/orthopedics' },
         { title: 'pediatrics', link: '/department/pediatrics' },
         { title: 'Anaesthesiology', link: '/department/anaesthesiology' },
@@ -77,9 +118,12 @@ const Navbar = () => {
     },
   ];
 
+  console.log("lightNavbar", lightNavbar)
+  console.log("scrollDown", scrollDown)
+
   return (
     <>
-      <div className='nav-parent'>
+      <div className={`nav-parent`}>
         <div className="top-header">
           <div className="top-links">
 
@@ -92,7 +136,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <nav className="main-navbar">
+        <nav className={`main-navbar ${lightNavbar ? 'light' : 'dark'} ${scrollDown ? "scrolling" : "stopscrolling"}`}>
           <div className="navbar-left">
             <img src="/assets/images/logo/logo-full.png" alt="logo" className="logo-img" />
 

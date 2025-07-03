@@ -28,7 +28,7 @@ const MenuItems = ({ items }) => {
               className="dropdown-item"
               onMouseEnter={() => setActiveSubIndex(index)}
             >
-              <a href={sub.link || '#'} className="nav-link">
+              <a href={sub.link || '#'} className="sub-link">
                 {sub.title} 
               </a>
 
@@ -37,7 +37,7 @@ const MenuItems = ({ items }) => {
                 <ul className="dropdown right">
                   {sub.submenu.map((subSub, i) => (
                     <li key={i}>
-                      <a href={subSub.link} className="nav-link">
+                      <a href={subSub.link} className="sub-link">
                         {subSub.title}
                       </a>
                     </li>
