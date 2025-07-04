@@ -53,13 +53,21 @@ const FooterOne = () => {
                       Contact us
                     </Link>
                   </li>
+                  <li className='mb-16'>
+                    <Link
+                      to='/hospital'
+                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
+                    >
+                      Hospital
+                    </Link>
+                  </li>
 
                   <li className='mb-16'>
                     <Link
                       to='/dean'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
-                      Dean
+                      Dean & MS
                     </Link>
                   </li>
 
@@ -72,7 +80,7 @@ const FooterOne = () => {
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      to='/committee/general-harassment'
+                      to='/committee/gender-harasement'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Gender Harassment
@@ -89,7 +97,7 @@ const FooterOne = () => {
                   
                   <li className='mb-16'>
                     <Link
-                      to='/courses'
+                      to='/committee/curriculum-committee'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Curriculum Committee
@@ -168,9 +176,9 @@ const FooterOne = () => {
         <div className='bottom-footer bg-main-25 border-top border-dashed border-main-100 border-0 py-32'>
           <div className='container container-two'>
             <div className='bottom-footer__inner flex-between gap-3 flex-wrap'>
-              <p className='bottom-footer__text'>
+              <p className='bottom-footer__text ' onClick={()=>handleNavigate('https://takshashilauniv.ac.in')}>
                 {" "}
-                Copyright © 2025 <span className='fw-semibold'>
+                Copyright © 2025 <span style={{cursor:"pointer"}} className='fw-semibold '>
                 Takshashila University{" "}
                 </span>{" "}
                 All Rights Reserved.

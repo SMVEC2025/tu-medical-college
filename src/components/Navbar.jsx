@@ -41,7 +41,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [location.pathname, setLightNavbar, setScrollDown])
 
- 
+
 
   const topLinks = [
     { title: 'Contact us', link: '/contact-us' },
@@ -85,33 +85,40 @@ const Navbar = () => {
       //     { title: 'clinical', link: '/departments/chemistry' },
       //   ],
       submenu: [
-        { title: 'Ophthalmology', link: '/department/ophthalmology' },
-        // { title: 'general surgery', link: '/departments/chemistry' },
-        { title: 'diagnostics Services', link: '/department/diagnostics' },
-        { title: 'orthopedics', link: '/department/orthopedics' },
-        { title: 'pediatrics', link: '/department/pediatrics' },
-        { title: 'Anaesthesiology', link: '/department/anaesthesiology' },
-        { title: 'Dentistry', link: '/department/dentistry' },
-        { title: 'Dermatology', link: '/department/dermatology' },
-        { title: 'Otorhinolaryngology', link: '/department/otorhinolaryngology' },
-        { title: 'General Medicine', link: '/department/general-medicine' },
-        { title: 'Obstetrics & Gynaecology', link: '/department/obstetrics' },
-        { title: 'Radiology', link: '/department/radiology' },
-        { title: 'Psychiatry', link: '/department/psychiatry' },
-        { title: 'Opthalmology', link: '/department/opthalmology' },
-        { title: 'Forensic Medicine', link: '/department/forensic-medicine' },
         { title: 'Anatomy', link: '/department/anatomy' },
         { title: 'BioChemistry', link: '/department/bio-chemistry' },
-        { title: 'Pathology', link: '/department/pathology' },
-        { title: 'Pharmacology', link: '/department/pharmacology' },
         { title: 'Physiology', link: '/department/physiology' },
+        { title: 'Pharmacology', link: '/department/pharmacology' },
+        { title: 'Pathology', link: '/department/pathology' },
+        { title: 'Forensic Medicine', link: '/department/forensic-medicine' },
+        { title: 'General Medicine', link: '/department/general-medicine' },
+        { title: 'pediatrics', link: '/department/pediatrics' },
+        { title: 'Dermatology', link: '/department/dermatology' },
+        { title: 'Psychiatry', link: '/department/psychiatry' },
+        { title: 'Anaesthesiology', link: '/department/anaesthesiology' },
+        { title: 'general surgery', link: '/department/general-surgery' },
+        { title: 'Obstetrics & Gynaecology', link: '/department/obstetrics' },
+        { title: 'Oto-Rhino-Laryngology', link: '/department/otorhinolaryngology' },
+        { title: 'orthopedics', link: '/department/orthopedics' },
+        { title: 'Ophthalmology', link: '/department/ophthalmology' },
+        { title: 'Radio-diagnosis', link: '/department/radio-diagnosis' },
+        { title: 'Dentistry', link: '/department/dentistry' },
+        { title: 'Radio-Therapy', link: '/department/radio-therapy' },
+        { title: 'Physical Medicine & Rehabilitation', link: '/department/physical-medicine-rehabilitation' },
+        { title: 'Diagnostic Services', link: '/department/diagnostic' },
+
+
+
+
+        // { title: 'Radiology', link: '/department/radiology' },
+        // { title: 'Opthalmology', link: '/department/opthalmology' },
       ],
     },
     {
       title: 'Admin & Faculty Details',
       submenu: [
         { title: 'Admin', link: '/admin' },
-        { title: 'Dean', link: '/dean' },
+        { title: 'Dean & MS', link: '/dean' },
         { title: 'non clinical', link: '/faculty' },
         { title: 'clinical', link: '/faculty' },
       ],

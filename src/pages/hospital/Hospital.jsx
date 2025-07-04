@@ -289,7 +289,7 @@ function Hospital() {
             </ul>
           </section>
           <section className="facilities">
-            <h2>Medical and surgical board specialities</h2>
+            <h2>Medical and surgical broad specialities</h2>
             <ul>
               {MedicalAndSurgical.map((medical, index) => (
                 <li key={index}>

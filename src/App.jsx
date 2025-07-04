@@ -52,7 +52,6 @@ import Orthopedics from "./pages/department/Orthopedics.jsx";
 import Otorhinolaryngology from "./pages/department/Otorhinolaryngology.jsx";
 import Pediatrics from "./pages/department/Pediatrics.jsx";
 import Psychiatry from "./pages/department/Psychiatry.jsx";
-import Radiology from "./pages/department/Radiology.jsx";
 import DeanDetails from "./components/dean/DeanDetails.jsx";
 import PharmacovigilanceCommittee from "./pages/committee/PharmacovigilanceCommittee.jsx";
 import AntiRagging from "./pages/committee/AntiRagging.jsx";
@@ -69,6 +68,10 @@ import Physiology from "./pages/department/Physiology.jsx";
 import MsiDetail from "./components/msi/MsiDetail.jsx";
 import Hospital from "./pages/hospital/Hospital.jsx";
 import MainLayout from "./MainLayout.jsx";
+import GeneralSurgery from "./pages/department/general surgery.jsx";
+import PhysicalMedicine from "./pages/department/PhysicalMedicine.jsx";
+import RadioDiagnosis from "./pages/department/RadioDiagnosis.jsx";
+import RadioTherapy from "./pages/department/RadioTherapy.jsx";
 
 function App() {
   return (
@@ -143,13 +146,18 @@ function App() {
         <Route exact path='/department/otorhinolaryngology' element={<Otorhinolaryngology />} />
         <Route exact path='/department/pediatrics' element={<Pediatrics />} />
         <Route exact path='/department/psychiatry' element={<Psychiatry/>} />
-        <Route exact path='/department/radiology' element={<Radiology />} />
+        <Route exact path='/department/radio-therapy' element={<RadioTherapy />} />
         <Route exact path='/department/forensic-medicine' element={<ForensicMedicine />} />
         <Route exact path='/department/anatomy' element={<Anatomy />} />
         <Route exact path='/department/bio-chemistry' element={<Biochemistry />} />
         <Route exact path='/department/pathology' element={<Pathology />} />
         <Route exact path='/department/pharmacology' element={<Pharmacology />} />
         <Route exact path='/department/physiology' element={<Physiology />} />
+        <Route exact path='/department/general-surgery' element={<GeneralSurgery />} />
+        <Route exact path='/department/physical-medicine-rehabilitation' element={<PhysicalMedicine/>} />
+        <Route exact path='/department/radio-diagnosis' element={<RadioDiagnosis/>} />
+        
+
 
 
         <Route exact path='/dean' element={<DeanDetails/>} />

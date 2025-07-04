@@ -98,9 +98,11 @@
 .dropdown-item {
     position: relative;
 }
-.sub-link a{
+
+.sub-link a {
     color: white;
 }
+
 .nav-menu {
     display: flex;
     flex-direction: row;
@@ -115,6 +117,7 @@
 
     }
 }
+
 .nav-item>.sub-link {
     font-size: 17px;
 
@@ -124,10 +127,11 @@
     }
 }
 
-.sub-link{
+.sub-link {
     color: #686868;
     width: 100%;
 }
+
 /* Main Dropdown */
 .dropdown {
     position: absolute;
@@ -141,7 +145,7 @@
 
 /* Sub-Submenu aligned to right */
 .dropdown.right {
-    top: 10px;
+    top: 0;
     left: calc(100%);
     min-width: 220px;
 }
@@ -150,12 +154,14 @@
 
 .dropdown {
     .sub-link {
-        padding: 10px 15px;
+        padding: 5px 15px;
         text-transform: capitalize;
 
         &:hover {
             background-color: #f15a29;
             color: white;
+            padding: 10px 15px;
+
         }
     }
 }
