@@ -116,7 +116,7 @@ function App() {
         <Route exact path='/faq' element={<FaqPage />} />
         <Route exact path='/favorite-course' element={<FavoriteCoursePage />} />
         <Route exact path='/find-tutors' element={<FindTutorsPage />} />
-        <Route exact path='/gallery' element={<GalleryPage />} />
+        <Route exact path='/gallery' element={<GalleryPage title='Gallery' />} />
         <Route exact path='/instructor' element={<InstructorPage />} />
         <Route
           exact
@@ -180,6 +180,7 @@ function App() {
         <Route exact path='/hospital' element={<Hospital/>} />
         <Route exact path='/clinical-faculty' element={<ClinicalFaculty/>} />
         <Route exact path='/non-clinical-faculty' element={<NonClinicalFaculty/>} />
+        <Route exact path='/infrastructure' element={<GalleryPage title='Infrastructure'/>} />
 
 
 

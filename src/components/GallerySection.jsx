@@ -1,7 +1,7 @@
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
-const GallerySection = () => {
+const GallerySection = ({title}) => {
   const GalleryData =[
     {
       img:'assets/images/img/infra/beds.webp',
@@ -35,7 +35,7 @@ const GallerySection = () => {
           <div className='section-heading text-center'>
             <div className='flex-align d-inline-flex gap-8 mb-16'>
               
-              <h5 className='text-main-two-600 mb-0'>Infrastructure</h5>
+              <h5 className='text-main-two-600 mb-0'>{title}</h5>
             </div>
             <h2 className='mb-24'>Explore Our Hospital</h2>
             <p className=''>

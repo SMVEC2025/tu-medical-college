@@ -3,16 +3,16 @@ import FooterOne from "../components/FooterOne";
 import GallerySection from "../components/GallerySection";
 import Navbar from "../components/Navbar";
 
-const GalleryPage = () => {
+const GalleryPage = ({title}) => {
   return (
     <>
    
       
       {/* Breadcrumb */}
-      <Breadcrumb title={"Gallery"} />
+      <Breadcrumb title={title} />
 
       {/* GallerySection */}
-      <GallerySection />
+      <GallerySection title={title} />
 
 
       {/* FooterOne */}
