@@ -53,8 +53,8 @@ const menu = [
     submenu: [
       { title: 'Admin', link: '/admin' },
       { title: 'Dean', link: '/dean' },
-      { title: 'non clinical', link: '/faculty' },
-      { title: 'clinical', link: '/faculty' },
+      { title: 'non clinical', link: '/non-clinical-faculty' },
+      { title: 'clinical', link: '/clinical-faculty' },
     ],
   },
   { title: 'Contact us', link: '/contact-us' },

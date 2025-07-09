@@ -11,7 +11,7 @@ const PDFViewer = ({file}) => {
     };
 
     return (
-        <div className="pdf-viewer">
+        <div className="pdf-viewer" style={{height:"100vh"}} >
             <iframe
                 src={`/assets/images/msi/${file}`}
                 width="100%"

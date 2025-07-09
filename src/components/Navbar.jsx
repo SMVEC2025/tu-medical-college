@@ -119,8 +119,8 @@ const Navbar = () => {
       submenu: [
         { title: 'Admin', link: '/admin' },
         { title: 'Dean & MS', link: '/dean' },
-        { title: 'non clinical', link: '/faculty' },
-        { title: 'clinical', link: '/faculty' },
+        { title: 'non clinical', link: '/non-clinical-faculty' },
+        { title: 'clinical', link: '/clinical-faculty' },
       ],
     },
   ];

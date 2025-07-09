@@ -72,6 +72,8 @@ import GeneralSurgery from "./pages/department/general surgery.jsx";
 import PhysicalMedicine from "./pages/department/PhysicalMedicine.jsx";
 import RadioDiagnosis from "./pages/department/RadioDiagnosis.jsx";
 import RadioTherapy from "./pages/department/RadioTherapy.jsx";
+import ClinicalFaculty from "./pages/faculty/ClinicalFaculty.jsx";
+import NonClinicalFaculty from "./pages/faculty/NonClinicalFaculty.jsx";
 
 function App() {
   return (
@@ -176,6 +178,8 @@ function App() {
 
 
         <Route exact path='/hospital' element={<Hospital/>} />
+        <Route exact path='/clinical-faculty' element={<ClinicalFaculty/>} />
+        <Route exact path='/non-clinical-faculty' element={<NonClinicalFaculty/>} />
 
 
 
