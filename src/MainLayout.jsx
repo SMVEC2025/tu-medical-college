@@ -8,8 +8,8 @@ const MainLayout = ({ children }) => {
 
   return (
     <>
-         <Navbar/>
-         <MobileMenu/>
+      <Navbar />
+      <MobileMenu />
       <ChatBot />
       {children}
       <FooterOne />
