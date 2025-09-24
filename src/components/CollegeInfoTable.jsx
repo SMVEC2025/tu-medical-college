@@ -13,7 +13,7 @@ const collegeData = [
   ['6', 'Mobile Number', '94437 69196'],
   ['7', 'Email ID of Dean', 'deantmch@takshashilauniv.ac.in'],
   ['8', 'Hospital', 'Takshashila Medical College Hospital'],
-  ['9', 'Date and Year of Registration of the Hospital', 'Date of issue: 08.08.2024\nValid upto: 07.08.2029\nReg. No: VLPMALL20240036333'],
+  ['9', 'Date and Year of Registration of the Hospital', 'Date of issue: 08.08.2024\nValid upto: 07.08.2029\nReg. No: VLPMALI20240036333'],
   ['10', 'Number of Beds', '605 beds'],
   ['11', 'Number of Beds for emergency', '30 beds'],
   ['12', 'Date of the First Letter of Permission (LoP) of MBBS & number of seats', 'APPLIED FOR LOP'],
