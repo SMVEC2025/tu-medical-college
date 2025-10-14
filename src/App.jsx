@@ -74,6 +74,8 @@ import RadioDiagnosis from "./pages/department/RadioDiagnosis.jsx";
 import RadioTherapy from "./pages/department/RadioTherapy.jsx";
 import ClinicalFaculty from "./pages/faculty/ClinicalFaculty.jsx";
 import NonClinicalFaculty from "./pages/faculty/NonClinicalFaculty.jsx";
+import HostelFee from "./components/HostelFee.jsx";
+import TuitionFee from "./components/TuitionFee.jsx";
 
 function App() {
   return (
@@ -182,7 +184,12 @@ function App() {
         <Route exact path='/non-clinical-faculty' element={<NonClinicalFaculty/>} />
         <Route exact path='/infrastructure' element={<GalleryPage title='Infrastructure'/>} />
 
+        {/* fees structure */}
 
+
+        <Route exact path='/fee/hostel-fee' element={<HostelFee/>} />
+        <Route exact path='/fee/tuition-fee' element={<TuitionFee/>} />
+        
 
 
 

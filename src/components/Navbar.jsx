@@ -72,6 +72,14 @@ const Navbar = () => {
 
           ],
         },
+        {
+          title: 'Fee Structure',
+          submenu: [
+            { title: 'Tuition Fee', link: '/fee/tuition-fee' },
+            { title: 'Hostel Fee', link: '/fee/hostel-fee' },
+
+          ],
+        },
 
       ],
     },

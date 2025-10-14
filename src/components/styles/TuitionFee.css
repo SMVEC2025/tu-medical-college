@@ -1,0 +1,70 @@
+.fee-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 12px;
+  color: #333;
+  h4{
+      color: #f15b29;
+      margin: 0;
+
+
+  }
+  p{
+    color: rgb(91, 91, 91);
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+}
+
+h1 {
+  color: #f15b29;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.fee-table th,
+.fee-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.fee-table th {
+  background-color: #f15b29;
+  color: white;
+}
+
+.fee-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.notes h2 {
+  color: #f15b29;
+  margin-bottom: 10px;
+  font-size: 26px ;
+  font-weight: 600;
+}
+
+.notes ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #444;
+}
+
+.notes li {
+  margin-bottom: 10px;
+}
