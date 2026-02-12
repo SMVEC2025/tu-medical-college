@@ -1,5 +1,4 @@
 import Breadcrumb from "../components/Breadcrumb";
-import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import SignUpInner from "../components/SignUpInner";
 import Animation from "../helper/Animation";
@@ -22,8 +21,6 @@ const SignUpPage = () => {
 
       {/* SignUpInner */}
       <SignUpInner />
-
-      {/* FooterOne */}
       
     </>
   );
