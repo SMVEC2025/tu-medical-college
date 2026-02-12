@@ -58,6 +58,9 @@ import AntiRagging from "./pages/committee/AntiRagging.jsx";
 import CurriculumCommittee from "./pages/committee/CurriculumCommittee.jsx";
 import GenderHarassment from "./pages/committee/GenderHarassment.jsx";
 import HospitalInfection from "./pages/committee/HospitalInfection.jsx";
+import EthicsCommittee from "./pages/committee/EthicsCommittee.jsx";
+import ResearchCommittee from "./pages/committee/ResearchCommittee.jsx";
+import CollegeCouncil from "./pages/committee/CollegeCouncil.jsx";
 import CollegeInfoTable from "./components/CollegeInfoTable.jsx";
 import ForensicMedicine from "./pages/department/ForensicMedicine.jsx";
 import Anatomy from "./pages/department/Anatomy.jsx";
@@ -76,124 +79,137 @@ import ClinicalFaculty from "./pages/faculty/ClinicalFaculty.jsx";
 import NonClinicalFaculty from "./pages/faculty/NonClinicalFaculty.jsx";
 import HostelFee from "./components/HostelFee.jsx";
 import TuitionFee from "./components/TuitionFee.jsx";
+import CommunityMedicine from "./pages/department/CommunityMedicine.jsx";
+import Microbiology from "./pages/department/Microbiology.jsx";
+import EmergencyMedicine from "./pages/department/EmergencyMedicine.jsx";
+import PulmonaryMedicine from "./pages/department/PulmonaryMedicine.jsx";
+import MBBSCourse from "./pages/courses/MBBSCourse.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
       <MainLayout>
-      <Routes>
-        <Route exact path='/' element={<HomePageThree />} />
-        <Route exact path='/index-2' element={<HomePageTwo />} />
-        <Route exact path='/index-3' element={<HomePageThree />} />
-        <Route exact path='/index-4' element={<HomePageFour />} />
-        <Route exact path='/index-5' element={<HomePageFive />} />
-        <Route exact path='/index-6' element={<HomePageSix />} />
-        <Route exact path='/about-us' element={<AboutPage />} />
-        <Route exact path='/about-two' element={<AboutTwoPage />} />
-        <Route exact path='/about-three' element={<AboutThreePage />} />
-        <Route exact path='/about-four' element={<AboutFourPage />} />
-        <Route exact path='/apply-admission' element={<ApplyAdmissionPage />} />
-        <Route exact path='/blog' element={<BlogPage />} />
-        <Route exact path='/blog-classic' element={<BlogClassicPage />} />
-        <Route exact path='/blog-details' element={<BlogDetailsPage />} />
-        <Route exact path='/blog-list' element={<BlogListPage />} />
-        <Route
-          exact
-          path='/book-online-class'
-          element={<BookOnlineClassPage />}
-        />
-        <Route exact path='/cart' element={<CartPage />} />
-        <Route exact path='/checkout' element={<CheckoutPage />} />
-        <Route exact path='/contact-us' element={<ContactPage />} />
-        <Route exact path='/course' element={<CoursePage />} />
-        <Route exact path='/course-details' element={<CourseDetailsPage />} />
-        <Route
-          exact
-          path='/course-list-view'
-          element={<CourseListViewPage />}
-        />
-        <Route exact path='/event-details' element={<EventDetailsPage />} />
-        <Route exact path='/events' element={<EventsPage />} />
-        <Route exact path='/faq' element={<FaqPage />} />
-        <Route exact path='/favorite-course' element={<FavoriteCoursePage />} />
-        <Route exact path='/find-tutors' element={<FindTutorsPage />} />
-        <Route exact path='/gallery' element={<GalleryPage title='Gallery' />} />
-        <Route exact path='/instructor' element={<InstructorPage />} />
-        <Route
-          exact
-          path='/instructor-details'
-          element={<InstructorDetailsPage />}
-        />
-        <Route exact path='/instructor-two' element={<InstructorTwoPage />} />
-        <Route exact path='/lesson-details' element={<LessonDetailsPage />} />
-        <Route exact path='/pricing-plan' element={<PricingPlanPage />} />
-        <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
-        <Route exact path='/product' element={<ProductPage />} />
-        <Route exact path='/product-details' element={<ProductDetailsPage />} />
-        <Route exact path='/sign-in' element={<SignInPage />} />
-        <Route exact path='/sign-up' element={<SignUpPage />} />
-        <Route exact path='/tuition-jobs' element={<TuitionJobsPage />} />
-        <Route exact path='/tutor' element={<TutorPage />} />
-        <Route exact path='/tutor-details' element={<TutorDetailsPage />} />
+        <Routes>
+          <Route exact path='/' element={<HomePageThree />} />
+          <Route exact path='/index-2' element={<HomePageTwo />} />
+          <Route exact path='/index-3' element={<HomePageThree />} />
+          <Route exact path='/index-4' element={<HomePageFour />} />
+          <Route exact path='/index-5' element={<HomePageFive />} />
+          <Route exact path='/index-6' element={<HomePageSix />} />
+          <Route exact path='/about-us' element={<AboutPage />} />
+          <Route exact path='/about-two' element={<AboutTwoPage />} />
+          <Route exact path='/about-three' element={<AboutThreePage />} />
+          <Route exact path='/about-four' element={<AboutFourPage />} />
+          <Route exact path='/apply-admission' element={<ApplyAdmissionPage />} />
+          <Route exact path='/blog' element={<BlogPage />} />
+          <Route exact path='/blog-classic' element={<BlogClassicPage />} />
+          <Route exact path='/blog-details' element={<BlogDetailsPage />} />
+          <Route exact path='/blog-list' element={<BlogListPage />} />
+          <Route
+            exact
+            path='/book-online-class'
+            element={<BookOnlineClassPage />}
+          />
+          <Route exact path='/cart' element={<CartPage />} />
+          <Route exact path='/checkout' element={<CheckoutPage />} />
+          <Route exact path='/contact-us' element={<ContactPage />} />
+          <Route exact path='/course' element={<CoursePage />} />
+          <Route exact path='/course-details' element={<CourseDetailsPage />} />
+          <Route
+            exact
+            path='/course-list-view'
+            element={<CourseListViewPage />}
+          />
+          <Route exact path='/event-details' element={<EventDetailsPage />} />
+          <Route exact path='/events' element={<EventsPage />} />
+          <Route exact path='/faq' element={<FaqPage />} />
+          <Route exact path='/favorite-course' element={<FavoriteCoursePage />} />
+          <Route exact path='/find-tutors' element={<FindTutorsPage />} />
+          <Route exact path='/gallery' element={<GalleryPage title='Gallery' />} />
+          <Route exact path='/instructor' element={<InstructorPage />} />
+          <Route
+            exact
+            path='/instructor-details'
+            element={<InstructorDetailsPage />}
+          />
+          <Route exact path='/instructor-two' element={<InstructorTwoPage />} />
+          <Route exact path='/lesson-details' element={<LessonDetailsPage />} />
+          <Route exact path='/pricing-plan' element={<PricingPlanPage />} />
+          <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
+          <Route exact path='/product' element={<ProductPage />} />
+          <Route exact path='/product-details' element={<ProductDetailsPage />} />
+          <Route exact path='/sign-in' element={<SignInPage />} />
+          <Route exact path='/sign-up' element={<SignUpPage />} />
+          <Route exact path='/tuition-jobs' element={<TuitionJobsPage />} />
+          <Route exact path='/tutor' element={<TutorPage />} />
+          <Route exact path='/tutor-details' element={<TutorDetailsPage />} />
 
 
-        {/* //deptData */}
-        <Route exact path='/department/anaesthesiology' element={<Anaesthesiology />} />
-        <Route exact path='/department/dentistry' element={<Dentistry />} />
-        <Route exact path='/department/dermatology' element={<Dermatology />} />
-        <Route exact path='/department/diagnostics' element={<Diagnostics />} />
-        <Route exact path='/department/general-medicine' element={<GeneralMedicine />} />
-        <Route exact path='/department/obstetrics' element={<Obstetrics />} />
-        <Route exact path='/department/ophthalmology' element={<Ophthalmology/>} />
-        <Route exact path='/department/orthopedics' element={<Orthopedics />} />
-        <Route exact path='/department/otorhinolaryngology' element={<Otorhinolaryngology />} />
-        <Route exact path='/department/pediatrics' element={<Pediatrics />} />
-        <Route exact path='/department/psychiatry' element={<Psychiatry/>} />
-        <Route exact path='/department/radio-therapy' element={<RadioTherapy />} />
-        <Route exact path='/department/forensic-medicine' element={<ForensicMedicine />} />
-        <Route exact path='/department/anatomy' element={<Anatomy />} />
-        <Route exact path='/department/bio-chemistry' element={<Biochemistry />} />
-        <Route exact path='/department/pathology' element={<Pathology />} />
-        <Route exact path='/department/pharmacology' element={<Pharmacology />} />
-        <Route exact path='/department/physiology' element={<Physiology />} />
-        <Route exact path='/department/general-surgery' element={<GeneralSurgery />} />
-        <Route exact path='/department/physical-medicine-rehabilitation' element={<PhysicalMedicine/>} />
-        <Route exact path='/department/radio-diagnosis' element={<RadioDiagnosis/>} />
-        
-
-
-
-        <Route exact path='/dean' element={<DeanDetails/>} />
-
-
-        <Route exact path='/committee/Pharmacovigilance' element={<PharmacovigilanceCommittee />} />
-        <Route exact path='/committee/anti-ragging' element={<AntiRagging />} />
-        <Route exact path='/committee/curriculum-committee' element={<CurriculumCommittee />} />
-        <Route exact path='/committee/hospital-infection-control' element={<HospitalInfection />} />
-        <Route exact path='/committee/gender-harasement' element={<GenderHarassment />} />
-
-        <Route exact path='/pro-fomra' element={<CollegeInfoTable />} />
-
-
-        <Route exact path='/mci-detail' element={<MsiDetail/>} />
-
-
-        <Route exact path='/hospital' element={<Hospital/>} />
-        <Route exact path='/clinical-faculty' element={<ClinicalFaculty/>} />
-        <Route exact path='/non-clinical-faculty' element={<NonClinicalFaculty/>} />
-        <Route exact path='/infrastructure' element={<GalleryPage title='Infrastructure'/>} />
-
-        {/* fees structure */}
-
-
-        <Route exact path='/fee/hostel-fee' element={<HostelFee/>} />
-        <Route exact path='/fee/tuition-fee' element={<TuitionFee/>} />
-        
+          {/* //deptData */}
+          <Route exact path='/department/anaesthesiology' element={<Anaesthesiology />} />
+          <Route exact path='/department/dentistry' element={<Dentistry />} />
+          <Route exact path='/department/dermatology' element={<Dermatology />} />
+          <Route exact path='/department/diagnostics' element={<Diagnostics />} />
+          <Route exact path='/department/general-medicine' element={<GeneralMedicine />} />
+          <Route exact path='/department/obstetrics' element={<Obstetrics />} />
+          <Route exact path='/department/ophthalmology' element={<Ophthalmology />} />
+          <Route exact path='/department/orthopedics' element={<Orthopedics />} />
+          <Route exact path='/department/otorhinolaryngology' element={<Otorhinolaryngology />} />
+          <Route exact path='/department/pediatrics' element={<Pediatrics />} />
+          <Route exact path='/department/psychiatry' element={<Psychiatry />} />
+          <Route exact path='/department/radio-therapy' element={<RadioTherapy />} />
+          <Route exact path='/department/forensic-medicine' element={<ForensicMedicine />} />
+          <Route exact path='/department/anatomy' element={<Anatomy />} />
+          <Route exact path='/department/bio-chemistry' element={<Biochemistry />} />
+          <Route exact path='/department/pathology' element={<Pathology />} />
+          <Route exact path='/department/pharmacology' element={<Pharmacology />} />
+          <Route exact path='/department/physiology' element={<Physiology />} />
+          <Route exact path='/department/general-surgery' element={<GeneralSurgery />} />
+          <Route exact path='/department/physical-medicine-rehabilitation' element={<PhysicalMedicine />} />
+          <Route exact path='/department/radio-diagnosis' element={<RadioDiagnosis />} />
+          <Route exact path='/department/community-medicine' element={<CommunityMedicine />} />
+          <Route exact path='/department/microbiology' element={<Microbiology />} />
+          <Route exact path='/department/emergency-medicine' element={<EmergencyMedicine />} />
+          <Route exact path='/department/pulmonory-medicine' element={<PulmonaryMedicine />} />
 
 
 
-      </Routes>
+
+          <Route exact path='/dean' element={<DeanDetails />} />
+
+
+          <Route exact path='/committee/Pharmacovigilance' element={<PharmacovigilanceCommittee />} />
+          <Route exact path='/committee/anti-ragging' element={<AntiRagging />} />
+          <Route exact path='/committee/curriculum-committee' element={<CurriculumCommittee />} />
+          <Route exact path='/committee/hospital-infection-control' element={<HospitalInfection />} />
+          <Route exact path='/committee/gender-harasement' element={<GenderHarassment />} />
+          <Route exact path='/committee/ethics-committee' element={<EthicsCommittee />} />
+          <Route exact path='/committee/research-committee' element={<ResearchCommittee />} />
+          <Route exact path='/committee/college-council' element={<CollegeCouncil />} />
+
+          <Route exact path='/pro-fomra' element={<CollegeInfoTable />} />
+
+
+          <Route exact path='/mci-detail' element={<MsiDetail />} />
+
+
+          <Route exact path='/hospital' element={<Hospital />} />
+          <Route exact path='/clinical-faculty' element={<ClinicalFaculty />} />
+          <Route exact path='/non-clinical-faculty' element={<NonClinicalFaculty />} />
+          <Route exact path='/infrastructure' element={<GalleryPage title='Infrastructure' />} />
+
+          {/* fees structure */}
+
+
+          <Route exact path='/fee/hostel-fee' element={<HostelFee />} />
+          <Route exact path='/fee/tuition-fee' element={<TuitionFee />} />
+          <Route exact path='/courses-mbbs' element={<MBBSCourse />} />
+
+
+
+
+        </Routes>
       </MainLayout>
     </BrowserRouter>
   );

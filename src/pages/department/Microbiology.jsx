@@ -8,10 +8,10 @@ import Navbar from "../../components/Navbar";
 
 
 const deptData = {
-  mission:"To train undergraduate and postgraduate students with the aim of producing a highly skilled & professionally competent doctor.To impart quality training for the technical staff with the aim of producing skilled & competent technicians.", 
-  vision:"To impart high quality education in the field of Microbiology and quality laboratory services and research.",
+  mission:"To achieve excellence in diagnostic Microbiology, teaching, and research for the accurate detection, prevention, and control of infectious diseases.", 
+  vision:"To emerge as a centre of excellence in Microbiology that advances patient care, scientific innovation, and public health.",
   title:"Microbiology",
-  para:"The Department of Microbiology has a well established clinical and research laboratory. The Clinical Microbiology Laboratory functions round the clock on all the seven days of the week. The department has facilities for bacterial, fungal and mycobacterial culture and a variety of serology/immunology tests including IFA and blot assay for ANA, Hepatitis B markers, serum IgE in addition to serology for common infectious diseases. The department has a well established museum."
+  para:"The Department of Microbiology is dedicated to excellence in teaching, research, and diagnostic services, with a strong focus on the role of microorganisms in health, disease, and the environment. It offers comprehensive training in bacteriology, virology, mycology, parasitology, and immunology, supported by well-equipped laboratories. The department fosters scientific inquiry, ethical practice, and effective infection control, preparing students for successful careers in academics, clinical practice, and research."
 }
 const Microbiology = () => {
   return (

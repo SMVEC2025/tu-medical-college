@@ -10,7 +10,7 @@ function MsiDetail() {
         {
             id: "a",
             name: "Details of Dean and Medical Superintendent",
-            filepath: 'dean.pdf',
+            filepath: 'Details-of-Dean.pdf',
             data: ""
         },
         {
@@ -23,7 +23,7 @@ function MsiDetail() {
             id: "c",
             name: "Details of sanctioned intake capacity of various UG & PG courses",
             filepath: "",
-            data: "Not Applicable"
+            data: "MBBS : 100 seats"
         },
         {
             id: "d",
@@ -38,12 +38,14 @@ function MsiDetail() {
         {
             id: "f",
             name: "Details of CME programmes, Conferences and academic activities conducted by the institution",
-            data: "Not Applicable"
+            filepath: "cme-programs.pdf",
+            data: ""
         },
         {
             id: "g",
             name: "Details of any awards and achievement received by the students or the faculty",
-            data: "Not Applicable"
+            filepath: "awardsandachivements.pdf",
+            data: ""
         },
         {
             id: "h",
@@ -87,7 +89,7 @@ function MsiDetail() {
 
     return (
         <>
-            
+
             <div className='msi-main'>
                 <h2>Biometric Attendance Dashboard</h2>
                 <div className='msi-splitter'>
@@ -112,7 +114,7 @@ function MsiDetail() {
                     </div>
                 </div>
             </div>
-            
+
         </>
     )
 }

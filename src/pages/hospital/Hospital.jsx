@@ -63,7 +63,10 @@ function Hospital() {
   ];
 
   const diagnosticServices = [
-
+    {
+      title: 'MRI',
+      description: 'MRI offers advanced, high-resolution imaging for accurate and early diagnosis across a wide range of medical conditions. With state-of-the-art technology and expert radiologists, we ensure safe, precise, and patient-centric imaging care',
+    },
     {
       title: '2D Echo',
       description: 'Our 2D Echo service offers precise cardiac imaging to assess heart structure and function for early diagnosis and management of heart conditions.',
@@ -160,8 +163,8 @@ function Hospital() {
       description: 'Our facility houses 10 state-of-the-art operation theaters equipped with laminar airflow systems to maintain a sterile environment and reduce infection risk during surgeries.',
     },
     {
-      title: 'Normal Delivery at Free of Cost',
-      description: 'We provide normal delivery services completely free of charge, ensuring safe childbirth under expert medical supervision for all expecting mothers.',
+      title: 'Normal and Caesarean delivery free of cost',
+      description: 'We offer both normal and caesarean delivery services completely free of cost, ensuring safe, compassionate, and expert maternity care for mothers and newborns with continuous medical supervision.',
     },
     {
       title: 'Free Food and Accommodation',
@@ -182,20 +185,20 @@ function Hospital() {
   ]
   const MedicalAndSurgical = [
     {
-      title: 'Anaesthesiology',
-      description: 'Our anaesthesiology team ensures safe and effective pain management during surgeries and critical care procedures, using modern anesthesia techniques and continuous patient monitoring.',
+      title: 'Anesthesiology',
+      description: 'The department of Anaesthesiology delivers standardised peri-operative care, ensuring patient safety through expert anaesthesia for all surgical specialities. From pre-operative assessment to chronic pain management and critical care we utilise advanced monitoring and evidence-based techniques to provide safe, reliable and compassionate care tailored to every patients’ recovery journey.',
     },
     {
       title: 'Dermatology, Venereology and Leprosy',
-      description: 'We provide specialized diagnosis and treatment for skin diseases, sexually transmitted infections, and leprosy, offering both medical and cosmetic dermatological care.',
+      description: 'The department of Dermatology provide specialized diagnosis and treatment for skin diseases, sexually transmitted infections, and leprosy, offering both medical and cosmetic dermatological care. Our dermatology unit offers expert care for skin, hair, and nail conditions, including cosmetic procedures like chemical peeling and PRP therapy for skin rejuvenation and hair restoration.',
     },
     {
       title: 'General Medicine',
-      description: 'Our general medicine department delivers holistic care for adult patients, managing a broad range of acute and chronic illnesses with a focus on accurate diagnosis and long-term wellness.',
+      description: 'The department of General Medicine provides comprehensive diagnosis and treatment for a wide range of adult health conditions, including chronic diseases, infections, and lifestyle disorders. Our general medicine department delivers holistic care for adult patients, managing a broad range of acute and chronic illnesses with a focus on accurate diagnosis and long-term wellness.',
     },
     {
       title: 'Paediatrics',
-      description: 'Our paediatrics department offers comprehensive care for infants, children, and adolescents, including immunization, growth monitoring, and management of pediatric diseases.',
+      description: 'The department of Pediatrics provides specialized care for newborns, infants and children including advanced treatments such as surfactant therapy and critical care in a level-III NICU and well equipped PICU. We also offer immunization and specialty pediatrics clinics on designated days for expert consultation, follow up and comprehensive child healthcare.',
     },
     {
       title: 'Pain and Palliative Care',
@@ -203,39 +206,43 @@ function Hospital() {
     },
     {
       title: 'Psychiatry',
-      description: 'Our psychiatry unit provides expert mental health care, offering therapy, counseling, de-addiction services, and advanced treatments for a range of psychiatric disorders.',
+      description: 'The department of Psychiatry provides compassionate care for mental health issues, with specialized services including de-addiction programs and Electroconvulsive Therapy (ECT) for treatment-resistant conditions. Our psychiatry unit provides expert mental health care, offering therapy, counselling, de-addiction services, and advanced treatments for a range of psychiatric disorders.',
     },
     {
       title: 'Radio-diagnosis',
-      description: 'Our radiodiagnosis department is equipped with modern imaging tools like CT, MRI, ultrasound, and X-ray to support precise diagnosis and treatment planning.',
+      description: 'The department of Radiology offers comprehensive, state-of-the-art imaging services including CT scans, Doppler studies, ultrasonography (USG), digital X-rays, mammography, and image-guided interventions Our department is committed to delivering accurate and timely diagnostic insights to support clinical decision-making and optimize patient care outcomes.',
     },
     {
       title: 'Emergency Medicine',
-      description: 'Our emergency medicine team offers immediate, life-saving care for trauma, accidents, and critical medical emergencies, available 24/7 with rapid response systems.',
+      description: 'The department of Emergency Medicine is dedicated to delivering rapid, high-quality care for acute and life-threatening conditions. The department integrates advanced clinical training, evidence-based practice, and modern emergency infrastructure. It emphasizes excellence in trauma care, critical care, and disaster preparedness. Students receive hands-on exposure under the guidance of experienced emergency physicians and multidisciplinary teams.',
     },
     {
       title: 'General Surgery',
-      description: 'Our general surgery department offers expert surgical care for a variety of conditions, with skilled surgeons performing both routine and complex procedures safely.',
+      description: 'The department of General Surgery offers expert surgical care for a variety of conditions, with skilled surgeons performing both routine and complex procedures safely. Our general surgery team specializes in minimally invasive procedures including endoscopy and laparoscopy for accurate diagnosis and treatment with quicker recovery.',
     },
     {
       title: 'Obstetrics and Gynaecology',
-      description: 'We provide comprehensive women’s healthcare, including prenatal care, childbirth, gynecological surgeries, and management of reproductive health issues.',
+      description: 'The department of Obstetrics and Gynaecology is committed to excellence in women’s healthcare, education for students and research. The department provides comprehensive care in obstetrics, gynaecology, and reproductive health. It is equipped with modern facilities such as laparoscopy, hysteroscopy, colposcopy for maternal, foetal, and gynaecological services. Faculty members are actively involved in teaching, clinical training, and research activities. The department strives to promote safe motherhood, women’s wellbeing, and academic excellence.',
     },
     {
       title: 'Ophthalmology',
-      description: 'Our ophthalmology department offers eye care services ranging from vision testing and cataract surgeries to the management of complex ocular disorders.',
+      description: 'The department of ophthalmology is well equipped with advanced instruments in giving comprehensive eye care ranging from routine visual screening to advanced cataract and glaucoma surgeries to diabetic retinopathy screening. The department also conducts eye camps on a routine basis in rural areas.',
     },
     {
       title: 'Orthopaedics',
-      description: 'Our orthopaedics team specializes in treating bone, joint, and spine conditions, providing expert care for fractures, arthritis, sports injuries, and joint replacements.',
-    },
-    {
-      title: 'Dentistry',
-      description: 'Our dentistry department provides preventive, restorative, and cosmetic dental care including root canals, orthodontics, and oral surgery in a patient-friendly environment.',
+      description: 'The department of Orthopedics offers advanced surgical and non-surgical management of musculoskeletal disorders. Operative services include trauma fixation, joint replacement surgeries, arthroscopic procedures, spine surgeries, deformity correction, and management of complex fractures. The department is equipped with modern operation theatres and follows evidence-based surgical protocols, while actively training students in contemporary operative techniques and perioperative care.',
     },
     {
       title: 'ENT',
-      description: 'Our ENT department offers comprehensive care for ear, nose, and throat conditions, including endoscopic procedures, audiology testing, and surgeries for sinus and throat disorders.',
+      description: 'Our ENT specialists perform intricate surgical procedures such as Septoplasty and Functional Endoscopic Sinus Surgery (FESS) for nasal conditions, tympano-mastoidectomy exploration to treat chronic ear conditions, Micro laryngeal surgeries for vocal cord diseases, Foreign body removal from food passage/airway, Adenotonsillectomy, thyroid and salivary gland surgeries and other head and neck procedures.',
+    },
+    {
+      title: 'Dentistry',
+      description: 'Our dentistry department offers advanced surgical procedures including root canal treatment and dental implants, ensuring long-term oral health and functional restoration.',
+    },
+    {
+      title: 'Pulmonory medicine',
+      description: 'The department of Pulmonary Medicine is dedicated to excellence in respiratory healthcare, education, and research. The department offers comprehensive diagnosis and management of respiratory and sleep-related disorders. Equipped with modern diagnostic facilities, it provides evidence-based and patient-centred care. Faculty members are actively involved in teaching, clinical training, and research activities. The department strives to improve lung health through quality care, academic excellence, and community outreach.',
     }
   ]
   return (
@@ -253,7 +260,7 @@ function Hospital() {
             </p>
           </section>
 
-          <section className="medical-specialities">
+          {/* <section className="medical-specialities">
             <h2>Medical Specialities</h2>
             <ul>
               {medicalSpecialities.map((speciality, index) => (
@@ -275,8 +282,18 @@ function Hospital() {
                 </li>
               ))}
             </ul>
+          </section> */}
+          <section className="facilities">
+            <h2>Medical and Surgical broad specialities</h2>
+            <ul>
+              {MedicalAndSurgical.map((medical, index) => (
+                <li key={index}>
+                  <h3>{medical.title}</h3>
+                  <p>{medical.description}</p>
+                </li>
+              ))}
+            </ul>
           </section>
-
           <section className="diagnostic-services">
             <h2>Diagnostic Services</h2>
             <ul>
@@ -288,7 +305,7 @@ function Hospital() {
               ))}
             </ul>
           </section>
-          <section className="facilities">
+          {/* <section className="facilities">
             <h2>Medical and surgical broad specialities</h2>
             <ul>
               {MedicalAndSurgical.map((medical, index) => (
@@ -298,7 +315,7 @@ function Hospital() {
                 </li>
               ))}
             </ul>
-          </section>
+          </section> */}
           <section className="facilities">
             <h2>24x7 Facilities</h2>
             <ul>

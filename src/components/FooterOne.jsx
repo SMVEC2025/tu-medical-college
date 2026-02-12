@@ -119,6 +119,30 @@ const FooterOne = () => {
                       Pharmacovigilance
                     </Link>
                   </li>
+                    <li className='mb-16'>
+                    <Link
+                      to='/committee/ethics-committee'
+                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
+                    >
+                      Ethics committee
+                    </Link>
+                  </li>
+                    <li className='mb-16'>
+                    <Link
+                      to='/committee/research-committee'
+                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
+                    >
+                      Research committee
+                    </Link>
+                  </li>
+                    <li className='mb-16'>
+                    <Link
+                      to='/committee/college-council'
+                      className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
+                    >
+                      College council
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>

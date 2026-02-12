@@ -18,7 +18,7 @@ Tamil Nadu - 604305, India`,
     },
     {
       title: 'Medical Superintendent',
-      name: 'Dr. Prasath',
+      name: 'Dr. Prasath. C',
       qualifications: 'MD Anaesthesia',
       address: `Takshashila University, Ongur,
 Tindivanam Taluk, Villupuram District,

@@ -69,6 +69,9 @@ const Navbar = () => {
             { title: 'Curriculum Committee - 2025', link: '/committee/curriculum-committee' },
             { title: 'hospital Infection Control Committee', link: '/committee/hospital-infection-control' },
             { title: 'Pharmacovigilance Committee', link: '/committee/Pharmacovigilance' },
+            { title: 'Ethics committee', link: '/committee/ethics-committee' },
+            { title: 'Research committee', link: '/committee/research-committee' },
+            { title: 'College council', link: '/committee/college-council' },
 
           ],
         },
@@ -83,8 +86,12 @@ const Navbar = () => {
 
       ],
     },
-    { title: 'Courses', link: '/courses' },
-
+    {
+      title: 'Courses',
+      submenu: [
+        { title: 'MBBS', link: '/courses-mbbs' },
+      ],
+    },
     {
       title: 'Departments',
       //   submenu: [
@@ -111,9 +118,13 @@ const Navbar = () => {
         { title: 'Ophthalmology', link: '/department/ophthalmology' },
         { title: 'Radio-diagnosis', link: '/department/radio-diagnosis' },
         { title: 'Dentistry', link: '/department/dentistry' },
-        { title: 'Radio-Therapy', link: '/department/radio-therapy' },
-        { title: 'Physical Medicine & Rehabilitation', link: '/department/physical-medicine-rehabilitation' },
+        // { title: 'Radio-Therapy', link: '/department/radio-therapy' }, removed on 12/2/26 ffrom sugestion of TU medical college
+        { title: 'Physical medicine & Rehabilitation', link: '/department/physical-medicine-rehabilitation' },
         { title: 'Diagnostic Services', link: '/department/diagnostic' },
+        { title: 'Community medicine', link: '/department/community-medicine' },
+        { title: 'Microbiology', link: '/department/microbiology' },
+        { title: 'Emergency medicine', link: '/department/emergency-medicine' },
+        { title: 'Pulmonory medicine', link: '/department/pulmonory-medicine' },
 
 
 

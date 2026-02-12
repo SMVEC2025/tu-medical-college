@@ -10,7 +10,7 @@ const GenderHarassment = () => {
     description:
       'The Hospital Infection Control Committee (HICC) plays a vital role in maintaining hygiene, controlling infection outbreaks, and ensuring a safe hospital environment. It implements and monitors infection control practices to safeguard both patients and healthcare workers.',
     members: [
-      ['Dr. Prasath.C, Medical Superintendent', 'Chairperson'],
+      ['Dr. Prasath. C, Medical Superintendent', 'Chairperson'],
       ['Dr. Johny Cyriac, Professor & HOD of General Medicine', 'Member'],
       ['Dr. Mahadevan R, Professor of General Surgery', 'Member'],
       ['Dr. Saraswathy.K, Professor of Ophthalmology', 'Member'],
@@ -29,7 +29,7 @@ const GenderHarassment = () => {
       'The Curriculum Committee ensures a structured and updated academic curriculum, aligning with regulatory bodies and modern medical education standards. It continuously reviews and revises syllabi to enhance student learning outcomes.',
     members: [
       ['Dr. M. Jayasree', 'Chairperson'],
-      ['Dr. Prasath.C, Professor of Anaesthesia', 'MEU Co-ordinator'],
+      ['Dr. Prasath. C, Professor of Anaesthesia', 'MEU Co-ordinator'],
       ['Dr. Kuzhandai Velu. V', 'Professor of Biochemistry'],
       ['Dr. Patil Vaibhav Damodar', 'Professor of Pathology'],
       ['Dr. Johny Cyriac', 'Professor of General Medicine'],
