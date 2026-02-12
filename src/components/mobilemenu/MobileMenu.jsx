@@ -37,19 +37,19 @@ const menu = [
     submenu: [
       { title: 'Anatomy', link: '/department/anatomy' },
       { title: 'BioChemistry', link: '/department/bio-chemistry' },
-      { title: 'PulmonaryMedicine', link: '/department/PulmonaryMedicine' },
+      { title: 'Physiology', link: '/department/physiology' },
       { title: 'Pharmacology', link: '/department/pharmacology' },
       { title: 'Pathology', link: '/department/pathology' },
       { title: 'Forensic Medicine', link: '/department/forensic-medicine' },
       { title: 'General Medicine', link: '/department/general-medicine' },
-      { title: 'Pediatrics', link: '/department/pediatrics' },
+      { title: 'pediatrics', link: '/department/pediatrics' },
       { title: 'Dermatology', link: '/department/dermatology' },
       { title: 'Psychiatry', link: '/department/psychiatry' },
       { title: 'Anaesthesiology', link: '/department/anaesthesiology' },
-      { title: 'General surgery', link: '/department/general-surgery' },
+      { title: 'general surgery', link: '/department/general-surgery' },
       { title: 'Obstetrics & Gynaecology', link: '/department/obstetrics' },
       { title: 'Oto-Rhino-Laryngology', link: '/department/otorhinolaryngology' },
-      { title: 'Orthopedics', link: '/department/orthopedics' },
+      { title: 'orthopedics', link: '/department/orthopedics' },
       { title: 'Ophthalmology', link: '/department/ophthalmology' },
       { title: 'Radio-diagnosis', link: '/department/radio-diagnosis' },
       { title: 'Dentistry', link: '/department/dentistry' },
@@ -60,6 +60,12 @@ const menu = [
       { title: 'Microbiology', link: '/department/microbiology' },
       { title: 'Emergency medicine', link: '/department/emergency-medicine' },
       { title: 'Pulmonory medicine', link: '/department/pulmonory-medicine' },
+
+
+
+
+      // { title: 'Radiology', link: '/department/radiology' },
+      // { title: 'Opthalmology', link: '/department/opthalmology' },
     ],
   },
   {
