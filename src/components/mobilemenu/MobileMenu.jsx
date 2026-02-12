@@ -34,14 +34,19 @@ const menu = [
   { title: 'Hospital', link: '/hospital' },
   {
     title: 'Departments',
+    //   submenu: [
+    //     { title: 'Pre Clinical', link: '/departments/physics' },
+    //     { title: 'Para clinical', link: '/departments/chemistry' },
+    //     { title: 'clinical', link: '/departments/chemistry' },
+    //   ],
     submenu: [
       { title: 'Anatomy', link: '/department/anatomy' },
       { title: 'BioChemistry', link: '/department/bio-chemistry' },
       { title: 'Physiology', link: '/department/physiology' },
       { title: 'Pharmacology', link: '/department/pharmacology' },
       { title: 'Pathology', link: '/department/pathology' },
-      { title: 'Forensic Medicine', link: '/department/forensic-medicine' },
-      { title: 'General Medicine', link: '/department/general-medicine' },
+      { title: 'Forensic medicine', link: '/department/forensic-medicine' },
+      { title: 'General medicine', link: '/department/general-medicine' },
       { title: 'pediatrics', link: '/department/pediatrics' },
       { title: 'Dermatology', link: '/department/dermatology' },
       { title: 'Psychiatry', link: '/department/psychiatry' },
