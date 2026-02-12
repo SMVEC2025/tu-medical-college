@@ -1,7 +1,5 @@
 import React from 'react';
 import './styles/CollegeInfoTable.css';
-import Navbar from './Navbar';
-import FooterThree from './FooterThree';
 import Breadcrumb from './Breadcrumb';
 
 const collegeData = [

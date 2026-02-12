@@ -1,11 +1,6 @@
 
 import Breadcrumb from "../../components/Breadcrumb";
 import FeaturesTwo from "../../components/FeaturesTwo";
-import FooterThree from "../../components/FooterThree";
-
-import Navbar from "../../components/Navbar";
-
-
 
 const deptData = {
   mission:"To inculcate clinical skills, professionalism, teaching and leadership skills among students in ophthalmology.To strive for excellence in quality patient care and treatment, to reduce preventable and avoidable blindness.", 

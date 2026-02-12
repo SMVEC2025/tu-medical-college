@@ -1,10 +1,5 @@
 import Breadcrumb from "../../components/Breadcrumb";
 import FeaturesTwo from "../../components/FeaturesTwo";
-import FooterThree from "../../components/FooterThree";
-
-import Navbar from "../../components/Navbar";
-
-
 
 const deptData = {
   mission:"To provide the highest quality of education, training and research experience for students.To ensure the highest quality and effective diagnostic services for optimum patient care.", 

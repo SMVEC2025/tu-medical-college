@@ -1,11 +1,6 @@
 
 import Breadcrumb from "../../components/Breadcrumb";
 import FeaturesTwo from "../../components/FeaturesTwo";
-import FooterThree from "../../components/FooterThree";
-
-import Navbar from "../../components/Navbar";
-
-
 
 const deptData = {
   mission:"To train the undergraduates in basic orthopaedic sciences and trauma care.To train the postgraduates in orthopaedic specialities like trauma, arthroplasty, arthroscopy, spine, paediatric orthopaedics, musculoskeletal disorders and tumors.To collaborate with national & international institutions for knowledge sharing & excellence.", 

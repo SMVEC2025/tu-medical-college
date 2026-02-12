@@ -3,8 +3,6 @@ import Breadcrumb from "../../components/Breadcrumb";
 import FeaturesTwo from "../../components/FeaturesTwo";
 import FooterThree from "../../components/FooterThree";
 
-import Navbar from "../../components/Navbar";
-
 
 
 const deptData = {

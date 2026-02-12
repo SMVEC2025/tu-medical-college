@@ -1,11 +1,6 @@
 
 import Breadcrumb from "../../components/Breadcrumb";
 import FeaturesTwo from "../../components/FeaturesTwo";
-import FooterThree from "../../components/FooterThree";
-
-import Navbar from "../../components/Navbar";
-
-
 
 const deptData = {
   mission:"To train the undergraduates in basic ENT care and emergency management.To collaborate with national & international institutes for knowledge sharing & excellence.", 

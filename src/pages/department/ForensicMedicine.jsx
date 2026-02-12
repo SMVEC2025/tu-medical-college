@@ -1,10 +1,5 @@
 import Breadcrumb from "../../components/Breadcrumb";
 import FeaturesTwo from "../../components/FeaturesTwo";
-import FooterThree from "../../components/FooterThree";
-
-import Navbar from "../../components/Navbar";
-
-
 
 const deptData = {
   mission:"•	To provide understanding of medico legal issues in medical practice.To provide understanding of code of conduct and medical ethics.To provide knowledge to manage medical and legal issues in case of poisoning / overdose.", 
