@@ -1,6 +1,4 @@
-import React from 'react';
 import '../../components/styles/PharmacovigilanceCommittee.css';
-import Navbar from '../../components/Navbar';
 
 const GenderHarassment = () => {
 

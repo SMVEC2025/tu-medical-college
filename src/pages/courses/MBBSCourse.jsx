@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Breadcrumb from "../../components/Breadcrumb";
 import {
   MBBS_TUITION_FEE_ACADEMIC_YEARS,
@@ -7,35 +6,6 @@ import {
 } from "../../data/mbbsTuitionFee";
 import "./MBBSCourse.css";
 
-const programHighlights = [
-  {
-    title: "Duration",
-    description:
-      "4.5 years of academic training followed by 1 year of compulsory rotatory internship.",
-  },
-  {
-    title: "Training Model",
-    description:
-      "Integrated classroom learning, simulation, ward postings, and supervised patient care.",
-  },
-  {
-    title: "Curriculum Focus",
-    description:
-      "Pre-clinical, para-clinical, and clinical competencies aligned to CBME-based MBBS standards.",
-  },
-];
-
-const curriculumPhases = [
-  "Phase I: Anatomy, Physiology, and Biochemistry fundamentals.",
-  "Phase II: Pathology, Pharmacology, Microbiology, and Forensic Medicine.",
-  "Phase III: Core clinical subjects with hospital-based training and case presentations.",
-];
-
-const admissionChecklist = [
-  "Qualifying score in NEET-UG as per current state and regulatory norms.",
-  "Counselling/allotment through the approved admission process for respective quota.",
-  "Document verification, medical fitness, and fee payment within notified timelines.",
-];
 
 const MBBSCourse = () => {
   return (

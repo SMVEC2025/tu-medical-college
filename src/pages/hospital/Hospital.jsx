@@ -1,66 +1,64 @@
 // src/pages/hospital/Hospital.jsx
 import React from 'react';
 import './Hospital.css';
-import Navbar from '../../components/Navbar';
-import FooterOne from '../../components/FooterOne';
 import Breadcrumb from '../../components/Breadcrumb';
 import { Ambulance, AudioLines, Bed, BedSingle, Cross, Tablets, TestTubeDiagonal } from 'lucide-react';
 
 function Hospital() {
 
-  const medicalSpecialities = [
-    {
-      title: 'Anesthesiology',
-      description: 'Our anesthesiology department ensures safe and effective anesthesia care for surgical and diagnostic procedures, with constant monitoring for optimal patient safety and comfort.',
-    },
-    {
-      title: 'Dermatology / Chemical Peeling / PRP',
-      description: 'Our dermatology unit offers expert care for skin, hair, and nail conditions, including cosmetic procedures like chemical peeling and PRP therapy for skin rejuvenation and hair restoration.',
-    },
-    {
-      title: 'General Medicine',
-      description: 'Our general medicine department provides comprehensive diagnosis and treatment for a wide range of adult health conditions, including chronic diseases, infections, and lifestyle disorders.',
-    },
-    {
-      title: 'Pediatrics - Surfactant Therapy / NICU / PICU',
-      description: 'Our pediatrics department offers specialized care for newborns and children, including advanced treatments like surfactant therapy and critical care in well-equipped NICU and PICU facilities.',
-    },
-    {
-      title: 'Psychiatry - De-addiction Clinic / ECT',
-      description: 'Our psychiatry department provides compassionate care for mental health issues, with specialized services including de-addiction programs and Electroconvulsive Therapy (ECT) for treatment-resistant conditions.',
-    },
-    {
-      title: 'Radiology - CT / Doppler / USG / X-Ray',
-      description: 'Our radiology department offers a full range of imaging services including CT scans, Doppler studies, ultrasonography (USG), and X-rays for accurate and timely diagnosis.',
-    }
-  ];
+  // const medicalSpecialities = [
+  //   {
+  //     title: 'Anesthesiology',
+  //     description: 'Our anesthesiology department ensures safe and effective anesthesia care for surgical and diagnostic procedures, with constant monitoring for optimal patient safety and comfort.',
+  //   },
+  //   {
+  //     title: 'Dermatology / Chemical Peeling / PRP',
+  //     description: 'Our dermatology unit offers expert care for skin, hair, and nail conditions, including cosmetic procedures like chemical peeling and PRP therapy for skin rejuvenation and hair restoration.',
+  //   },
+  //   {
+  //     title: 'General Medicine',
+  //     description: 'Our general medicine department provides comprehensive diagnosis and treatment for a wide range of adult health conditions, including chronic diseases, infections, and lifestyle disorders.',
+  //   },
+  //   {
+  //     title: 'Pediatrics - Surfactant Therapy / NICU / PICU',
+  //     description: 'Our pediatrics department offers specialized care for newborns and children, including advanced treatments like surfactant therapy and critical care in well-equipped NICU and PICU facilities.',
+  //   },
+  //   {
+  //     title: 'Psychiatry - De-addiction Clinic / ECT',
+  //     description: 'Our psychiatry department provides compassionate care for mental health issues, with specialized services including de-addiction programs and Electroconvulsive Therapy (ECT) for treatment-resistant conditions.',
+  //   },
+  //   {
+  //     title: 'Radiology - CT / Doppler / USG / X-Ray',
+  //     description: 'Our radiology department offers a full range of imaging services including CT scans, Doppler studies, ultrasonography (USG), and X-rays for accurate and timely diagnosis.',
+  //   }
+  // ];
 
-  const surgicalSpecialities = [
-    {
-      title: 'Dentistry',
-      description: 'Our dentistry department offers advanced surgical procedures including root canal treatment and dental implants, ensuring long-term oral health and functional restoration.',
-    },
-    {
-      title: 'ENT',
-      description: 'Our ENT specialists perform intricate surgical procedures such as Functional Endoscopic Sinus Surgery (FESS) and mastoidectomy to treat chronic sinus and ear conditions effectively.',
-    },
-    {
-      title: 'General Surgery',
-      description: 'Our general surgery unit specializes in minimally invasive procedures including endoscopy and laparoscopy for accurate diagnosis and treatment with quicker recovery.',
-    },
-    {
-      title: 'Obstetrics and Gynaecology',
-      description: 'We offer advanced surgical care for infertility, high-risk pregnancies, and laparoscopic gynecological procedures, ensuring safe and comprehensive women’s health services.',
-    },
-    {
-      title: 'Ophthalmology',
-      description: 'Our ophthalmology team performs cataract surgeries and corrective procedures for refractive errors, using modern techniques to restore and enhance vision.',
-    },
-    {
-      title: 'Orthopaedics',
-      description: 'Our orthopaedic department provides specialized surgeries including spine procedures, arthroscopy, and total joint replacements for improved mobility and pain relief.',
-    }
-  ];
+  // const surgicalSpecialities = [
+  //   {
+  //     title: 'Dentistry',
+  //     description: 'Our dentistry department offers advanced surgical procedures including root canal treatment and dental implants, ensuring long-term oral health and functional restoration.',
+  //   },
+  //   {
+  //     title: 'ENT',
+  //     description: 'Our ENT specialists perform intricate surgical procedures such as Functional Endoscopic Sinus Surgery (FESS) and mastoidectomy to treat chronic sinus and ear conditions effectively.',
+  //   },
+  //   {
+  //     title: 'General Surgery',
+  //     description: 'Our general surgery unit specializes in minimally invasive procedures including endoscopy and laparoscopy for accurate diagnosis and treatment with quicker recovery.',
+  //   },
+  //   {
+  //     title: 'Obstetrics and Gynaecology',
+  //     description: 'We offer advanced surgical care for infertility, high-risk pregnancies, and laparoscopic gynecological procedures, ensuring safe and comprehensive women’s health services.',
+  //   },
+  //   {
+  //     title: 'Ophthalmology',
+  //     description: 'Our ophthalmology team performs cataract surgeries and corrective procedures for refractive errors, using modern techniques to restore and enhance vision.',
+  //   },
+  //   {
+  //     title: 'Orthopaedics',
+  //     description: 'Our orthopaedic department provides specialized surgeries including spine procedures, arthroscopy, and total joint replacements for improved mobility and pain relief.',
+  //   }
+  // ];
 
   const diagnosticServices = [
     {
