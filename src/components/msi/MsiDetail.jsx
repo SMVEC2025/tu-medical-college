@@ -63,7 +63,7 @@ function MsiDetail() {
             id: "j",
             name: "Details of status of recognition of all the courses",
             filepath: "",
-            data: "Not Applicable"
+            data: "MBBS : 100 seats"
         },
         {
             id: "k",
