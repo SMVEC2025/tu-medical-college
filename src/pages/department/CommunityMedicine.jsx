@@ -41,15 +41,9 @@ const CommunityMedicine = () => {
     ]
     return (
         <>
-
-
-
             <Breadcrumb heading={true} title={"Department of Community Medicine"} />
             <FeaturesTwo data={deptData} />
             {/* <DepartmentGallery title={deptData.title} GalleryData={GalleryData} /> */}
-
-
-
         </>
     );
 };
