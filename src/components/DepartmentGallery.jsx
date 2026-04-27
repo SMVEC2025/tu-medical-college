@@ -2,6 +2,7 @@ import React from 'react'
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 import LightGallery from "lightgallery/react";
+import "./DepartmentGallery.css";
 
 function DepartmentGallery({ title, GalleryData }) {
 
@@ -28,17 +29,20 @@ function DepartmentGallery({ title, GalleryData }) {
                             aria-labelledby='pills-education-tab'
                             tabIndex={0}
                         >
-                            {/* Masonry Start */}
-
-                            <div className='masonry'>
-                                <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+                            <div className='department-gallery'>
+                                <LightGallery
+                                    speed={500}
+                                    plugins={[lgThumbnail, lgZoom]}
+                                    elementClassNames='department-gallery__grid'
+                                >
                                     {GalleryData?.map((item, index) => (
                                         <a
-                                            className='masonry__item position-relative rounded-12 overflow-hidden'
+                                            key={`${item.img}-${index}`}
+                                            className='department-gallery__item position-relative rounded-12 overflow-hidden'
                                             href={item.img}
                                         >
                                             <img
-                                                alt='img2'
+                                                alt={item.name || `${title} gallery ${index + 1}`}
                                                 src={item.img}
                                             />
                                         </a>
@@ -46,7 +50,6 @@ function DepartmentGallery({ title, GalleryData }) {
 
                                 </LightGallery>
                             </div>
-                            {/* Masonry End */}
                         </div>
 
                     </div>

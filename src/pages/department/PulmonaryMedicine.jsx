@@ -1,6 +1,8 @@
 
 import Breadcrumb from "../../components/Breadcrumb";
+import DepartmentGallery from "../../components/DepartmentGallery";
 import FeaturesTwo from "../../components/FeaturesTwo";
+import { getDepartmentGalleryData } from "../../data/departmentGalleries";
 
 
 
@@ -11,6 +13,8 @@ const deptData = {
     para: "The Department of Pulmonary Medicine provides comprehensive, evidence-based care for respiratory and sleep-related disorders using modern diagnostic facilities.It is actively involved in teaching, clinical training, and research to promote academic excellence. The department is committed to improving lung health through quality care and community outreach."
 }
 const PulmonaryMedicine = () => {
+    const GalleryData = getDepartmentGalleryData("pulmonary");
+
     return (
         <>
 
@@ -20,6 +24,8 @@ const PulmonaryMedicine = () => {
 
 
             <FeaturesTwo data={deptData} />
+
+            <DepartmentGallery title={deptData.title} GalleryData={GalleryData} />
 
 
         </>

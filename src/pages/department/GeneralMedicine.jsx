@@ -1,5 +1,7 @@
 import Breadcrumb from "../../components/Breadcrumb";
+import DepartmentGallery from "../../components/DepartmentGallery";
 import FeaturesTwo from "../../components/FeaturesTwo";
+import { getDepartmentGalleryData } from "../../data/departmentGalleries";
 
 
 const deptData = {
@@ -9,6 +11,8 @@ const deptData = {
   para:"Department of General Medicine is one of the broad specialty department providing primary health care to adult population. Out patient services are available on all days between 8.30 am to 3 pm. An extended outpatient consultation is available on all working days. A review consultation is available on designated days. Apart from regular General medicine consultation, special clinics on various specialties are functioning. In patient services are available in the third floor and fourth floor of the hospital."
 }
 const GeneralMedicine = () => {
+  const GalleryData = getDepartmentGalleryData("general_medicine");
+
   return (
     <>
     
@@ -18,6 +22,8 @@ const GeneralMedicine = () => {
 
   
       <FeaturesTwo data={deptData}/>
+
+      <DepartmentGallery title={deptData.title} GalleryData={GalleryData} />
 
       
     </>

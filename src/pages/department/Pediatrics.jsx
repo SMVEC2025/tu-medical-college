@@ -1,6 +1,8 @@
 
 import Breadcrumb from "../../components/Breadcrumb";
+import DepartmentGallery from "../../components/DepartmentGallery";
 import FeaturesTwo from "../../components/FeaturesTwo";
+import { getDepartmentGalleryData } from "../../data/departmentGalleries";
 
 
 
@@ -12,6 +14,8 @@ const deptData = {
   para:"The Department of Paediatrics is dedicated to delivering comprehensive healthcare services for infants, children, and adolescents. With a team of highly skilled paediatricians, nurses, and allied health professionals, we provide compassionate and evidence-based care tailored to the unique needs of each child.Our department offers a wide range of paediatric services, including preventive health care, immunization, nutritional guidance, and the diagnosis and management of both acute and chronic illnesses. We also support child growth and development monitoring through regular well-child visits.In addition to clinical services, the department is actively involved in undergraduate and postgraduate medical education, ensuring the next generation of healthcare professionals is well-equipped with the knowledge and skills required in paediatric medicine. Our faculty is committed to fostering a nurturing and intellectually stimulating environment that encourages clinical excellence and research.The Department of Paediatrics also collaborates with other specialties to provide multidisciplinary care for children with complex medical conditions, ensuring holistic and family-cantered care."
 }
 const Pediatrics= () => {
+  const GalleryData = getDepartmentGalleryData("paediatrics");
+
   return (
     <>
     
@@ -21,6 +25,8 @@ const Pediatrics= () => {
 
   
       <FeaturesTwo data={deptData}/>
+
+      <DepartmentGallery title={deptData.title} GalleryData={GalleryData} />
 
       
     </>

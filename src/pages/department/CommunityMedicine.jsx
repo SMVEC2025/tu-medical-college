@@ -1,6 +1,7 @@
 import Breadcrumb from "../../components/Breadcrumb";
 import DepartmentGallery from "../../components/DepartmentGallery";
 import FeaturesTwo from "../../components/FeaturesTwo";
+import { getDepartmentGalleryData } from "../../data/departmentGalleries";
 
 
 const deptData = {
@@ -13,37 +14,13 @@ const deptData = {
 
 const CommunityMedicine = () => {
 
-    const GalleryData = [
-        {
-            img: '/assets/images/img/infra/beds.webp',
-            name: ''
-        },
-        {
-            img: '/assets/images/img/infra/medicine.webp',
-            name: ''
-        },
-        {
-            img: '/assets/images/img/infra/centre.webp',
-            name: ''
-        },
-        {
-            img: '/assets/images/img/infra/reception.webp',
-            name: ''
-        },
-        {
-            img: '/assets/images/img/infra/waiting.webp',
-            name: ''
-        },
-        {
-            img: '/assets/images/img/infra/reception2.webp',
-            name: ''
-        }
-    ]
+    const GalleryData = getDepartmentGalleryData("community_medicine");
+
     return (
         <>
             <Breadcrumb heading={true} title={"Department of Community Medicine"} />
             <FeaturesTwo data={deptData} />
-            {/* <DepartmentGallery title={deptData.title} GalleryData={GalleryData} /> */}
+            <DepartmentGallery title={deptData.title} GalleryData={GalleryData} />
         </>
     );
 };

@@ -1,6 +1,8 @@
 
 import Breadcrumb from "../../components/Breadcrumb";
+import DepartmentGallery from "../../components/DepartmentGallery";
 import FeaturesTwo from "../../components/FeaturesTwo";
+import { getDepartmentGalleryData } from "../../data/departmentGalleries";
 
 
 
@@ -11,6 +13,8 @@ const deptData = {
   para:"The Department of Physiology being one of the three basic pioneer departments of the Takshashila Medical College and Hospital has been given the responsibility to impart medical education to the medical students. The department has come a long way since then, under the guidance of senior experienced faculty members having good teaching and research background. A number of faculty members served the department from time to time and played pivotal role in improving the department and taking it to new heights."
 }
 const Physiology= () => {
+  const GalleryData = getDepartmentGalleryData("physiology");
+
   return (
     <>
     
@@ -20,6 +24,8 @@ const Physiology= () => {
 
   
       <FeaturesTwo data={deptData}/>
+
+      <DepartmentGallery title={deptData.title} GalleryData={GalleryData} />
 
       
     </>
