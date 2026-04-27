@@ -149,6 +149,7 @@ function App() {
           <Route exact path='/department/anaesthesiology' element={<Anaesthesiology />} />
           <Route exact path='/department/dentistry' element={<Dentistry />} />
           <Route exact path='/department/dermatology' element={<Dermatology />} />
+          <Route exact path='/department/diagnostic' element={<Diagnostics />} />
           <Route exact path='/department/diagnostics' element={<Diagnostics />} />
           <Route exact path='/department/general-medicine' element={<GeneralMedicine />} />
           <Route exact path='/department/obstetrics' element={<Obstetrics />} />

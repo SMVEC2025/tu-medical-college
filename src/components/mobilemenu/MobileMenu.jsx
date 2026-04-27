@@ -60,7 +60,7 @@ const menu = [
       { title: 'Dentistry', link: '/department/dentistry' },
       // { title: 'Radio-Therapy', link: '/department/radio-therapy' }, removed on 12/2/26 ffrom sugestion of TU medical college
       { title: 'Physical medicine & Rehabilitation', link: '/department/physical-medicine-rehabilitation' },
-      { title: 'Diagnostic Services', link: '/department/diagnostic' },
+      { title: 'Diagnostic Services', link: '/department/diagnostics' },
       { title: 'Community medicine', link: '/department/community-medicine' },
       { title: 'Microbiology', link: '/department/microbiology' },
       { title: 'Emergency medicine', link: '/department/emergency-medicine' },
